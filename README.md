@@ -3,7 +3,7 @@ A simple 2D multi-AGVs simulator with `Rviz2` on ROS2 `humble`, a simple navigat
 This packages also involved the application of `free_fleet` server and client, prepared for itegration with `open-rmf`
 
 Required packages:
-- `[free_fleet]` (https://github.com/open-rmf/free_fleet)
+- [`free_fleet`] (https://github.com/open-rmf/free_fleet)
 
 
 # Setup and Execution
