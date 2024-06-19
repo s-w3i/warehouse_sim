@@ -24,6 +24,8 @@ def generate_launch_description():
         print(f"Error reading YAML file: {e}")
         return LaunchDescription([])
 
+    rviz_config_file = os.path.join(pkg_path, "config", "agv.rviz")
+
     all_robot_actions = []
     for config in robots_config["robots"]:
         namespace = config["namespace"]
@@ -42,7 +44,7 @@ def generate_launch_description():
         robot_control = Node(
             package="robot_control",
             executable="fake_action_server",
-            name="simple_path_planner",
+            #name="simple_path_planner",
             namespace=namespace,
             parameters=[{"robot_name":namespace},
                         {"initial_x":initial_position["x"]},
@@ -59,13 +61,20 @@ def generate_launch_description():
             #remappings=remappings
         )
 
-        free_fleet_client = Node(
-        package='free_fleet_client_ros2',
-        executable='free_fleet_client_ros2',
-        name= "ff_client_node",
-        namespace = namespace,
-        output='both',
-        parameters=[{'fleet_name': 'v1'},
+        battery_state = Node(
+            package="robot_control",
+            executable="battery_simulator",
+            namespace=namespace,
+        )
+
+        fleet_client = Node(
+                package='free_fleet_client_ros2',
+                executable='free_fleet_client_ros2',
+                name=f"{namespace}_ff_client_node",
+                namespace=namespace,
+                output='both',
+                parameters=[
+                    {'fleet_name': 'v1'},
                     {'robot_name': namespace},
                     {'robot_model': 'cloudy'},
                     {'level_name': 'L1'},
@@ -74,33 +83,13 @@ def generate_launch_description():
                     {'map_frame': 'map'},
                     {'robot_frame': f'{namespace}/base_footprint'},
                     {'nav2_server_name': f'/{namespace}/navigate_to_pose'},
-                    #{'battery_state_topic': battery_state},
-                    #{'update_frequency': 5.0},
-                    #{'publish_frequency':5.0},
-                    {'use_sim_time': False}])
+                    {'battery_state_topic': f'/{namespace}/battery_state'},
+                    {'update_frequency': 20.0},
+                    {'publish_frequency': 2.0},
+                    {'use_sim_time': False}
+                ]
+            )
         
-        all_robot_actions.extend([robot,robot_control,static_publisher,free_fleet_client])
+        all_robot_actions.extend([robot,robot_control,static_publisher,battery_state,fleet_client])
 
-        fleet_server = Node(
-            package='free_fleet_server_ros2',
-            executable='free_fleet_server_ros2',
-            name='fleet_server_node',
-            output='both',
-            parameters=[
-                {'fleet_name': 'v1'},
-                {'fleet_state_topic': 'fleet_states'},
-                {'mode_request_topic': 'robot_mode_requests'},
-                {'path_request_topic': 'robot_path_requests'},
-                {'destination_request_topic': 'robot_destination_requests'},
-                {'dds_domain': 42},
-                {'dds_robot_state_topic': 'robot_state'},
-                {'dds_mode_request_topic': 'mode_request'},
-                {'dds_path_request_topic': 'path_request'},
-                {'dds_destination_request_topic': 'destination_request'},
-                {'update_state_frequency': 20.0},
-                {'publish_state_frequency': 2.0},
-            ]
-        )
-
-
-    return LaunchDescription(all_robot_actions+[maps,fleet_server])
+    return LaunchDescription(all_robot_actions+[maps])

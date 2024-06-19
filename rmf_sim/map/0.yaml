@@ -1,0 +1,4554 @@
+building_name: v2
+levels:
+  L1:
+    lanes:
+    - - 0
+      - 1
+      - {speed_limit: 0}
+    - - 1
+      - 0
+      - {speed_limit: 0}
+    - - 1
+      - 2
+      - {speed_limit: 0}
+    - - 2
+      - 1
+      - {speed_limit: 0}
+    - - 2
+      - 3
+      - {speed_limit: 0}
+    - - 3
+      - 2
+      - {speed_limit: 0}
+    - - 2
+      - 4
+      - {speed_limit: 0}
+    - - 4
+      - 2
+      - {speed_limit: 0}
+    - - 4
+      - 5
+      - {speed_limit: 0}
+    - - 5
+      - 4
+      - {speed_limit: 0}
+    - - 5
+      - 6
+      - {speed_limit: 0}
+    - - 6
+      - 5
+      - {speed_limit: 0}
+    - - 7
+      - 8
+      - {speed_limit: 0}
+    - - 8
+      - 7
+      - {speed_limit: 0}
+    - - 8
+      - 5
+      - {speed_limit: 0}
+    - - 5
+      - 8
+      - {speed_limit: 0}
+    - - 5
+      - 9
+      - {speed_limit: 0}
+    - - 9
+      - 5
+      - {speed_limit: 0}
+    - - 9
+      - 10
+      - {speed_limit: 0}
+    - - 10
+      - 9
+      - {speed_limit: 0}
+    - - 4
+      - 11
+      - {speed_limit: 0}
+    - - 11
+      - 4
+      - {speed_limit: 0}
+    - - 2
+      - 12
+      - {speed_limit: 0}
+    - - 12
+      - 2
+      - {speed_limit: 0}
+    - - 12
+      - 13
+      - {speed_limit: 0}
+    - - 13
+      - 12
+      - {speed_limit: 0}
+    - - 13
+      - 14
+      - {speed_limit: 0}
+    - - 14
+      - 13
+      - {speed_limit: 0}
+    - - 14
+      - 15
+      - {speed_limit: 0}
+    - - 15
+      - 14
+      - {speed_limit: 0}
+    - - 15
+      - 16
+      - {speed_limit: 0}
+    - - 16
+      - 15
+      - {speed_limit: 0}
+    - - 16
+      - 17
+      - {speed_limit: 0}
+    - - 17
+      - 16
+      - {speed_limit: 0}
+    - - 17
+      - 18
+      - {speed_limit: 0}
+    - - 18
+      - 17
+      - {speed_limit: 0}
+    - - 18
+      - 19
+      - {speed_limit: 0}
+    - - 19
+      - 18
+      - {speed_limit: 0}
+    - - 19
+      - 20
+      - {speed_limit: 0}
+    - - 20
+      - 19
+      - {speed_limit: 0}
+    - - 20
+      - 21
+      - {speed_limit: 0}
+    - - 21
+      - 20
+      - {speed_limit: 0}
+    - - 14
+      - 17
+      - {speed_limit: 0}
+    - - 17
+      - 14
+      - {speed_limit: 0}
+    - - 12
+      - 15
+      - {speed_limit: 0}
+    - - 15
+      - 12
+      - {speed_limit: 0}
+    - - 16
+      - 19
+      - {speed_limit: 0}
+    - - 19
+      - 16
+      - {speed_limit: 0}
+    - - 20
+      - 22
+      - {speed_limit: 0}
+    - - 22
+      - 20
+      - {speed_limit: 0}
+    - - 22
+      - 23
+      - {speed_limit: 0}
+    - - 23
+      - 22
+      - {speed_limit: 0}
+    - - 23
+      - 24
+      - {speed_limit: 0}
+    - - 24
+      - 23
+      - {speed_limit: 0}
+    - - 24
+      - 25
+      - {speed_limit: 0}
+    - - 25
+      - 24
+      - {speed_limit: 0}
+    - - 23
+      - 26
+      - {speed_limit: 0}
+    - - 26
+      - 23
+      - {speed_limit: 0}
+    - - 22
+      - 27
+      - {speed_limit: 0}
+    - - 27
+      - 22
+      - {speed_limit: 0}
+    - - 28
+      - 29
+      - {speed_limit: 0}
+    - - 29
+      - 28
+      - {speed_limit: 0}
+    - - 29
+      - 30
+      - {speed_limit: 0}
+    - - 30
+      - 29
+      - {speed_limit: 0}
+    - - 30
+      - 31
+      - {speed_limit: 0}
+    - - 31
+      - 30
+      - {speed_limit: 0}
+    - - 31
+      - 32
+      - {speed_limit: 0}
+    - - 32
+      - 31
+      - {speed_limit: 0}
+    - - 32
+      - 33
+      - {speed_limit: 0}
+    - - 33
+      - 32
+      - {speed_limit: 0}
+    - - 33
+      - 34
+      - {speed_limit: 0}
+    - - 34
+      - 33
+      - {speed_limit: 0}
+    - - 34
+      - 35
+      - {speed_limit: 0}
+    - - 35
+      - 34
+      - {speed_limit: 0}
+    - - 24
+      - 33
+      - {speed_limit: 0}
+    - - 33
+      - 24
+      - {speed_limit: 0}
+    - - 25
+      - 32
+      - {speed_limit: 0}
+    - - 32
+      - 25
+      - {speed_limit: 0}
+    - - 9
+      - 30
+      - {speed_limit: 0}
+    - - 30
+      - 9
+      - {speed_limit: 0}
+    - - 10
+      - 31
+      - {speed_limit: 0}
+    - - 31
+      - 10
+      - {speed_limit: 0}
+    - - 21
+      - 16
+      - {speed_limit: 0}
+    - - 16
+      - 21
+      - {speed_limit: 0}
+    - - 3
+      - 15
+      - {speed_limit: 0}
+    - - 15
+      - 3
+      - {speed_limit: 0}
+    - - 34
+      - 36
+      - {speed_limit: 0}
+    - - 36
+      - 34
+      - {speed_limit: 0}
+    - - 36
+      - 37
+      - {speed_limit: 0}
+    - - 37
+      - 36
+      - {speed_limit: 0}
+    - - 37
+      - 38
+      - {speed_limit: 0}
+    - - 38
+      - 37
+      - {speed_limit: 0}
+    - - 38
+      - 39
+      - {speed_limit: 0}
+    - - 39
+      - 38
+      - {speed_limit: 0}
+    - - 39
+      - 40
+      - {speed_limit: 0}
+    - - 40
+      - 39
+      - {speed_limit: 0}
+    - - 40
+      - 41
+      - {speed_limit: 0}
+    - - 41
+      - 40
+      - {speed_limit: 0}
+    - - 41
+      - 42
+      - {speed_limit: 0}
+    - - 42
+      - 41
+      - {speed_limit: 0}
+    - - 42
+      - 43
+      - {speed_limit: 0}
+    - - 43
+      - 42
+      - {speed_limit: 0}
+    - - 30
+      - 44
+      - {speed_limit: 0}
+    - - 44
+      - 30
+      - {speed_limit: 0}
+    - - 44
+      - 45
+      - {speed_limit: 0}
+    - - 45
+      - 44
+      - {speed_limit: 0}
+    - - 45
+      - 46
+      - {speed_limit: 0}
+    - - 46
+      - 45
+      - {speed_limit: 0}
+    - - 46
+      - 47
+      - {speed_limit: 0}
+    - - 47
+      - 46
+      - {speed_limit: 0}
+    - - 47
+      - 48
+      - {speed_limit: 0}
+    - - 48
+      - 47
+      - {speed_limit: 0}
+    - - 48
+      - 49
+      - {speed_limit: 0}
+    - - 49
+      - 48
+      - {speed_limit: 0}
+    - - 49
+      - 50
+      - {speed_limit: 0}
+    - - 50
+      - 49
+      - {speed_limit: 0}
+    - - 50
+      - 51
+      - {speed_limit: 0}
+    - - 51
+      - 50
+      - {speed_limit: 0}
+    - - 51
+      - 52
+      - {speed_limit: 0}
+    - - 52
+      - 51
+      - {speed_limit: 0}
+    - - 44
+      - 53
+      - {speed_limit: 0}
+    - - 53
+      - 44
+      - {speed_limit: 0}
+    - - 54
+      - 55
+      - {speed_limit: 0}
+    - - 55
+      - 54
+      - {speed_limit: 0}
+    - - 55
+      - 45
+      - {speed_limit: 0}
+    - - 45
+      - 55
+      - {speed_limit: 0}
+    - - 45
+      - 56
+      - {speed_limit: 0}
+    - - 56
+      - 45
+      - {speed_limit: 0}
+    - - 46
+      - 57
+      - {speed_limit: 0}
+    - - 57
+      - 46
+      - {speed_limit: 0}
+    - - 58
+      - 59
+      - {speed_limit: 0}
+    - - 59
+      - 58
+      - {speed_limit: 0}
+    - - 59
+      - 47
+      - {speed_limit: 0}
+    - - 47
+      - 59
+      - {speed_limit: 0}
+    - - 47
+      - 60
+      - {speed_limit: 0}
+    - - 60
+      - 47
+      - {speed_limit: 0}
+    - - 48
+      - 61
+      - {speed_limit: 0}
+    - - 61
+      - 48
+      - {speed_limit: 0}
+    - - 62
+      - 63
+      - {speed_limit: 0}
+    - - 63
+      - 62
+      - {speed_limit: 0}
+    - - 63
+      - 49
+      - {speed_limit: 0}
+    - - 49
+      - 63
+      - {speed_limit: 0}
+    - - 49
+      - 64
+      - {speed_limit: 0}
+    - - 64
+      - 49
+      - {speed_limit: 0}
+    - - 50
+      - 65
+      - {speed_limit: 0}
+    - - 65
+      - 50
+      - {speed_limit: 0}
+    - - 66
+      - 67
+      - {speed_limit: 0}
+    - - 67
+      - 66
+      - {speed_limit: 0}
+    - - 67
+      - 51
+      - {speed_limit: 0}
+    - - 51
+      - 67
+      - {speed_limit: 0}
+    - - 51
+      - 68
+      - {speed_limit: 0}
+    - - 68
+      - 51
+      - {speed_limit: 0}
+    - - 68
+      - 69
+      - {speed_limit: 0}
+    - - 69
+      - 68
+      - {speed_limit: 0}
+    - - 68
+      - 65
+      - {speed_limit: 0}
+    - - 65
+      - 68
+      - {speed_limit: 0}
+    - - 70
+      - 71
+      - {speed_limit: 0}
+    - - 71
+      - 70
+      - {speed_limit: 0}
+    - - 71
+      - 72
+      - {speed_limit: 0}
+    - - 72
+      - 71
+      - {speed_limit: 0}
+    - - 68
+      - 71
+      - {speed_limit: 0}
+    - - 71
+      - 68
+      - {speed_limit: 0}
+    - - 71
+      - 42
+      - {speed_limit: 0}
+    - - 42
+      - 71
+      - {speed_limit: 0}
+    - - 41
+      - 70
+      - {speed_limit: 0}
+    - - 70
+      - 41
+      - {speed_limit: 0}
+    - - 40
+      - 73
+      - {speed_limit: 0}
+    - - 73
+      - 40
+      - {speed_limit: 0}
+    - - 39
+      - 74
+      - {speed_limit: 0}
+    - - 74
+      - 39
+      - {speed_limit: 0}
+    - - 38
+      - 75
+      - {speed_limit: 0}
+    - - 75
+      - 38
+      - {speed_limit: 0}
+    - - 37
+      - 76
+      - {speed_limit: 0}
+    - - 76
+      - 37
+      - {speed_limit: 0}
+    - - 36
+      - 77
+      - {speed_limit: 0}
+    - - 77
+      - 36
+      - {speed_limit: 0}
+    - - 18
+      - 78
+      - {speed_limit: 0}
+    - - 78
+      - 18
+      - {speed_limit: 0}
+    - - 78
+      - 79
+      - {speed_limit: 0}
+    - - 79
+      - 78
+      - {speed_limit: 0}
+    - - 79
+      - 19
+      - {speed_limit: 0}
+    - - 19
+      - 79
+      - {speed_limit: 0}
+    - - 79
+      - 80
+      - {speed_limit: 0}
+    - - 80
+      - 79
+      - {speed_limit: 0}
+    - - 81
+      - 82
+      - {speed_limit: 0}
+    - - 82
+      - 81
+      - {speed_limit: 0}
+    - - 83
+      - 84
+      - {speed_limit: 0}
+    - - 84
+      - 83
+      - {speed_limit: 0}
+    - - 84
+      - 85
+      - {speed_limit: 0}
+    - - 85
+      - 84
+      - {speed_limit: 0}
+    - - 84
+      - 42
+      - {speed_limit: 0}
+    - - 42
+      - 84
+      - {speed_limit: 0}
+    - - 83
+      - 41
+      - {speed_limit: 0}
+    - - 41
+      - 83
+      - {speed_limit: 0}
+    - - 86
+      - 40
+      - {speed_limit: 0}
+    - - 40
+      - 86
+      - {speed_limit: 0}
+    - - 87
+      - 39
+      - {speed_limit: 0}
+    - - 39
+      - 87
+      - {speed_limit: 0}
+    - - 88
+      - 38
+      - {speed_limit: 0}
+    - - 38
+      - 88
+      - {speed_limit: 0}
+    - - 89
+      - 37
+      - {speed_limit: 0}
+    - - 37
+      - 89
+      - {speed_limit: 0}
+    - - 90
+      - 36
+      - {speed_limit: 0}
+    - - 36
+      - 90
+      - {speed_limit: 0}
+    - - 82
+      - 34
+      - {speed_limit: 0}
+    - - 34
+      - 82
+      - {speed_limit: 0}
+    - - 81
+      - 33
+      - {speed_limit: 0}
+    - - 33
+      - 81
+      - {speed_limit: 0}
+    - - 91
+      - 24
+      - {speed_limit: 0}
+    - - 24
+      - 91
+      - {speed_limit: 0}
+    - - 92
+      - 23
+      - {speed_limit: 0}
+    - - 23
+      - 92
+      - {speed_limit: 0}
+    - - 93
+      - 22
+      - {speed_limit: 0}
+    - - 22
+      - 93
+      - {speed_limit: 0}
+    - - 80
+      - 20
+      - {speed_limit: 0}
+    - - 20
+      - 80
+      - {speed_limit: 0}
+    - - 81
+      - 91
+      - {speed_limit: 0}
+    - - 91
+      - 81
+      - {speed_limit: 0}
+    - - 78
+      - 94
+      - {speed_limit: 0}
+    - - 94
+      - 78
+      - {speed_limit: 0}
+    - - 79
+      - 95
+      - {speed_limit: 0}
+    - - 95
+      - 79
+      - {speed_limit: 0}
+    - - 95
+      - 94
+      - {is_bidirectional: false, speed_limit: 0}
+    - - 95
+      - 96
+      - {speed_limit: 0}
+    - - 96
+      - 95
+      - {speed_limit: 0}
+    - - 96
+      - 97
+      - {speed_limit: 0}
+    - - 97
+      - 96
+      - {speed_limit: 0}
+    - - 97
+      - 98
+      - {speed_limit: 0}
+    - - 98
+      - 97
+      - {speed_limit: 0}
+    - - 96
+      - 99
+      - {is_bidirectional: false, speed_limit: 0}
+    - - 97
+      - 100
+      - {is_bidirectional: false, speed_limit: 0}
+    - - 101
+      - 98
+      - {is_bidirectional: false, speed_limit: 0}
+    - - 94
+      - 102
+      - {is_bidirectional: false, speed_limit: 0}
+    - - 102
+      - 103
+      - {is_bidirectional: false, speed_limit: 0}
+    - - 103
+      - 104
+      - {is_bidirectional: false, speed_limit: 0}
+    - - 104
+      - 105
+      - {is_bidirectional: false, speed_limit: 0}
+    - - 105
+      - 106
+      - {is_bidirectional: false, speed_limit: 0}
+    - - 106
+      - 107
+      - {is_bidirectional: false, speed_limit: 0}
+    - - 107
+      - 108
+      - {is_bidirectional: false, speed_limit: 0}
+    - - 109
+      - 105
+      - {is_bidirectional: false, speed_limit: 0}
+    - - 108
+      - 110
+      - {is_bidirectional: false, speed_limit: 0}
+    - - 111
+      - 112
+      - {is_bidirectional: false, speed_limit: 0}
+    - - 112
+      - 102
+      - {is_bidirectional: false, speed_limit: 0}
+    - - 112
+      - 109
+      - {is_bidirectional: false, speed_limit: 0}
+    - - 110
+      - 101
+      - {is_bidirectional: false, speed_limit: 0}
+    - - 100
+      - 111
+      - {is_bidirectional: false, speed_limit: 0}
+    - - 99
+      - 112
+      - {is_bidirectional: false, speed_limit: 0}
+    - - 95
+      - 113
+      - {speed_limit: 0}
+    - - 113
+      - 95
+      - {speed_limit: 0}
+    - - 96
+      - 114
+      - {speed_limit: 0}
+    - - 114
+      - 96
+      - {speed_limit: 0}
+    - - 114
+      - 115
+      - {speed_limit: 0}
+    - - 115
+      - 114
+      - {speed_limit: 0}
+    - - 115
+      - 116
+      - {speed_limit: 0}
+    - - 116
+      - 115
+      - {speed_limit: 0}
+    - - 116
+      - 117
+      - {speed_limit: 0}
+    - - 117
+      - 116
+      - {speed_limit: 0}
+    - - 117
+      - 118
+      - {speed_limit: 0}
+    - - 118
+      - 117
+      - {speed_limit: 0}
+    - - 118
+      - 119
+      - {speed_limit: 0}
+    - - 119
+      - 118
+      - {speed_limit: 0}
+    - - 119
+      - 81
+      - {speed_limit: 0}
+    - - 81
+      - 119
+      - {speed_limit: 0}
+    - - 117
+      - 120
+      - {speed_limit: 0}
+    - - 120
+      - 117
+      - {speed_limit: 0}
+    - - 114
+      - 113
+      - {speed_limit: 0}
+    - - 113
+      - 114
+      - {speed_limit: 0}
+    - - 115
+      - 121
+      - {speed_limit: 0}
+    - - 121
+      - 115
+      - {speed_limit: 0}
+    - - 116
+      - 122
+      - {speed_limit: 0}
+    - - 122
+      - 116
+      - {speed_limit: 0}
+    - - 120
+      - 119
+      - {speed_limit: 0}
+    - - 119
+      - 120
+      - {speed_limit: 0}
+    - - 118
+      - 123
+      - {speed_limit: 0}
+    - - 123
+      - 118
+      - {speed_limit: 0}
+    - - 123
+      - 124
+      - {speed_limit: 0}
+    - - 124
+      - 123
+      - {speed_limit: 0}
+    - - 124
+      - 119
+      - {speed_limit: 0}
+    - - 119
+      - 124
+      - {speed_limit: 0}
+    - - 123
+      - 125
+      - {speed_limit: 0}
+    - - 125
+      - 123
+      - {speed_limit: 0}
+    - - 125
+      - 126
+      - {speed_limit: 0}
+    - - 126
+      - 125
+      - {speed_limit: 0}
+    - - 126
+      - 127
+      - {speed_limit: 0}
+    - - 127
+      - 126
+      - {speed_limit: 0}
+    - - 127
+      - 128
+      - {speed_limit: 0}
+    - - 128
+      - 127
+      - {speed_limit: 0}
+    - - 128
+      - 129
+      - {speed_limit: 0}
+    - - 129
+      - 128
+      - {speed_limit: 0}
+    - - 129
+      - 130
+      - {speed_limit: 0}
+    - - 130
+      - 129
+      - {speed_limit: 0}
+    - - 130
+      - 131
+      - {speed_limit: 0}
+    - - 131
+      - 130
+      - {speed_limit: 0}
+    - - 131
+      - 132
+      - {speed_limit: 0}
+    - - 132
+      - 131
+      - {speed_limit: 0}
+    - - 84
+      - 133
+      - {speed_limit: 0}
+    - - 133
+      - 84
+      - {speed_limit: 0}
+    - - 133
+      - 131
+      - {speed_limit: 0}
+    - - 131
+      - 133
+      - {speed_limit: 0}
+    - - 133
+      - 134
+      - {speed_limit: 0}
+    - - 134
+      - 133
+      - {speed_limit: 0}
+    - - 133
+      - 135
+      - {speed_limit: 0}
+    - - 135
+      - 133
+      - {speed_limit: 0}
+    - - 135
+      - 130
+      - {speed_limit: 0}
+    - - 130
+      - 135
+      - {speed_limit: 0}
+    - - 129
+      - 136
+      - {speed_limit: 0}
+    - - 136
+      - 129
+      - {speed_limit: 0}
+    - - 128
+      - 137
+      - {speed_limit: 0}
+    - - 137
+      - 128
+      - {speed_limit: 0}
+    - - 127
+      - 138
+      - {speed_limit: 0}
+    - - 138
+      - 127
+      - {speed_limit: 0}
+    - - 126
+      - 139
+      - {speed_limit: 0}
+    - - 139
+      - 126
+      - {speed_limit: 0}
+    - - 125
+      - 140
+      - {speed_limit: 0}
+    - - 140
+      - 125
+      - {speed_limit: 0}
+    - - 131
+      - 141
+      - {speed_limit: 0}
+    - - 141
+      - 131
+      - {speed_limit: 0}
+    - - 141
+      - 142
+      - {speed_limit: 0}
+    - - 142
+      - 141
+      - {speed_limit: 0}
+    - - 141
+      - 143
+      - {speed_limit: 0}
+    - - 143
+      - 141
+      - {speed_limit: 0}
+    - - 143
+      - 144
+      - {speed_limit: 0}
+    - - 144
+      - 143
+      - {speed_limit: 0}
+    - - 97
+      - 145
+      - {speed_limit: 0}
+    - - 145
+      - 97
+      - {speed_limit: 0}
+    - - 145
+      - 114
+      - {speed_limit: 0}
+    - - 114
+      - 145
+      - {speed_limit: 0}
+    - - 98
+      - 146
+      - {speed_limit: 0}
+    - - 146
+      - 98
+      - {speed_limit: 0}
+    - - 146
+      - 145
+      - {speed_limit: 0}
+    - - 145
+      - 146
+      - {speed_limit: 0}
+    - - 147
+      - 115
+      - {speed_limit: 0}
+    - - 115
+      - 147
+      - {speed_limit: 0}
+    - - 146
+      - 148
+      - {speed_limit: 0}
+    - - 148
+      - 146
+      - {speed_limit: 0}
+    - - 148
+      - 149
+      - {speed_limit: 0}
+    - - 149
+      - 148
+      - {speed_limit: 0}
+    - - 149
+      - 150
+      - {speed_limit: 0}
+    - - 150
+      - 149
+      - {speed_limit: 0}
+    - - 150
+      - 151
+      - {speed_limit: 0}
+    - - 151
+      - 150
+      - {speed_limit: 0}
+    - - 151
+      - 152
+      - {speed_limit: 0}
+    - - 152
+      - 151
+      - {speed_limit: 0}
+    - - 152
+      - 153
+      - {speed_limit: 0}
+    - - 153
+      - 152
+      - {speed_limit: 0}
+    - - 153
+      - 154
+      - {speed_limit: 0}
+    - - 154
+      - 153
+      - {speed_limit: 0}
+    - - 154
+      - 155
+      - {speed_limit: 0}
+    - - 155
+      - 154
+      - {speed_limit: 0}
+    - - 155
+      - 156
+      - {speed_limit: 0}
+    - - 156
+      - 155
+      - {speed_limit: 0}
+    - - 156
+      - 157
+      - {speed_limit: 0}
+    - - 157
+      - 156
+      - {speed_limit: 0}
+    - - 157
+      - 158
+      - {speed_limit: 0}
+    - - 158
+      - 157
+      - {speed_limit: 0}
+    - - 158
+      - 143
+      - {speed_limit: 0}
+    - - 143
+      - 158
+      - {speed_limit: 0}
+    - - 158
+      - 159
+      - {speed_limit: 0}
+    - - 159
+      - 158
+      - {speed_limit: 0}
+    - - 159
+      - 130
+      - {speed_limit: 0}
+    - - 130
+      - 159
+      - {speed_limit: 0}
+    - - 157
+      - 160
+      - {speed_limit: 0}
+    - - 160
+      - 157
+      - {speed_limit: 0}
+    - - 160
+      - 129
+      - {speed_limit: 0}
+    - - 129
+      - 160
+      - {speed_limit: 0}
+    - - 156
+      - 161
+      - {speed_limit: 0}
+    - - 161
+      - 156
+      - {speed_limit: 0}
+    - - 161
+      - 128
+      - {speed_limit: 0}
+    - - 128
+      - 161
+      - {speed_limit: 0}
+    - - 155
+      - 162
+      - {speed_limit: 0}
+    - - 162
+      - 155
+      - {speed_limit: 0}
+    - - 162
+      - 127
+      - {speed_limit: 0}
+    - - 127
+      - 162
+      - {speed_limit: 0}
+    - - 154
+      - 163
+      - {speed_limit: 0}
+    - - 163
+      - 154
+      - {speed_limit: 0}
+    - - 163
+      - 126
+      - {speed_limit: 0}
+    - - 126
+      - 163
+      - {speed_limit: 0}
+    - - 153
+      - 164
+      - {speed_limit: 0}
+    - - 164
+      - 153
+      - {speed_limit: 0}
+    - - 164
+      - 125
+      - {speed_limit: 0}
+    - - 125
+      - 164
+      - {speed_limit: 0}
+    - - 152
+      - 165
+      - {speed_limit: 0}
+    - - 165
+      - 152
+      - {speed_limit: 0}
+    - - 165
+      - 123
+      - {speed_limit: 0}
+    - - 123
+      - 165
+      - {speed_limit: 0}
+    - - 151
+      - 166
+      - {speed_limit: 0}
+    - - 166
+      - 151
+      - {speed_limit: 0}
+    - - 166
+      - 118
+      - {speed_limit: 0}
+    - - 118
+      - 166
+      - {speed_limit: 0}
+    - - 166
+      - 165
+      - {speed_limit: 0}
+    - - 165
+      - 166
+      - {speed_limit: 0}
+    - - 166
+      - 167
+      - {speed_limit: 0}
+    - - 167
+      - 166
+      - {speed_limit: 0}
+    - - 150
+      - 167
+      - {speed_limit: 0}
+    - - 167
+      - 150
+      - {speed_limit: 0}
+    - - 167
+      - 117
+      - {speed_limit: 0}
+    - - 117
+      - 167
+      - {speed_limit: 0}
+    - - 149
+      - 168
+      - {speed_limit: 0}
+    - - 168
+      - 149
+      - {speed_limit: 0}
+    - - 168
+      - 116
+      - {speed_limit: 0}
+    - - 116
+      - 168
+      - {speed_limit: 0}
+    - - 148
+      - 147
+      - {speed_limit: 0}
+    - - 147
+      - 148
+      - {speed_limit: 0}
+    - - 32
+      - 35
+      - {speed_limit: 0}
+    - - 35
+      - 32
+      - {speed_limit: 0}
+    - - 31
+      - 53
+      - {speed_limit: 0}
+    - - 53
+      - 31
+      - {speed_limit: 0}
+    - - 101
+      - 169
+      - {speed_limit: 0}
+    - - 169
+      - 101
+      - {speed_limit: 0}
+    - - 169
+      - 170
+      - {speed_limit: 0}
+    - - 170
+      - 169
+      - {speed_limit: 0}
+    - - 170
+      - 171
+      - {is_bidirectional: false, speed_limit: 0}
+    - - 171
+      - 172
+      - {is_bidirectional: false, speed_limit: 0}
+    - - 172
+      - 173
+      - {is_bidirectional: false, speed_limit: 0}
+    - - 173
+      - 174
+      - {is_bidirectional: false, speed_limit: 0}
+    - - 174
+      - 175
+      - {is_bidirectional: false, speed_limit: 0}
+    - - 175
+      - 176
+      - {is_bidirectional: false, speed_limit: 0}
+    - - 176
+      - 177
+      - {is_bidirectional: false, speed_limit: 0}
+    - - 177
+      - 178
+      - {is_bidirectional: false, speed_limit: 0}
+    - - 178
+      - 179
+      - {is_bidirectional: false, speed_limit: 0}
+    - - 179
+      - 180
+      - {is_bidirectional: false, speed_limit: 0}
+    - - 180
+      - 181
+      - {is_bidirectional: false, speed_limit: 0}
+    - - 180
+      - 182
+      - {speed_limit: 0}
+    - - 182
+      - 180
+      - {speed_limit: 0}
+    - - 182
+      - 183
+      - {speed_limit: 0}
+    - - 183
+      - 182
+      - {speed_limit: 0}
+    - - 183
+      - 184
+      - {speed_limit: 0}
+    - - 184
+      - 183
+      - {speed_limit: 0}
+    - - 184
+      - 170
+      - {speed_limit: 0}
+    - - 170
+      - 184
+      - {speed_limit: 0}
+    - - 184
+      - 185
+      - {speed_limit: 0}
+    - - 185
+      - 184
+      - {speed_limit: 0}
+    - - 185
+      - 186
+      - {speed_limit: 0}
+    - - 186
+      - 185
+      - {speed_limit: 0}
+    - - 186
+      - 174
+      - {speed_limit: 0}
+    - - 174
+      - 186
+      - {speed_limit: 0}
+    - - 182
+      - 187
+      - {speed_limit: 0}
+    - - 187
+      - 182
+      - {speed_limit: 0}
+    - - 183
+      - 188
+      - {speed_limit: 0}
+    - - 188
+      - 183
+      - {speed_limit: 0}
+    - - 189
+      - 184
+      - {is_bidirectional: false, speed_limit: 0}
+    - - 190
+      - 170
+      - {is_bidirectional: false, speed_limit: 0}
+    - - 169
+      - 191
+      - {speed_limit: 0}
+    - - 191
+      - 169
+      - {speed_limit: 0}
+    - - 191
+      - 190
+      - {speed_limit: 0}
+    - - 190
+      - 191
+      - {speed_limit: 0}
+    - - 180
+      - 192
+      - {speed_limit: 0}
+    - - 192
+      - 180
+      - {speed_limit: 0}
+    - - 192
+      - 193
+      - {speed_limit: 0}
+    - - 193
+      - 192
+      - {speed_limit: 0}
+    - - 193
+      - 194
+      - {is_bidirectional: false, speed_limit: 0}
+    - - 194
+      - 195
+      - {is_bidirectional: false, speed_limit: 0}
+    - - 195
+      - 196
+      - {is_bidirectional: false, speed_limit: 0}
+    - - 196
+      - 197
+      - {is_bidirectional: false, speed_limit: 0}
+    - - 197
+      - 198
+      - {is_bidirectional: false, speed_limit: 0}
+    - - 198
+      - 199
+      - {is_bidirectional: false, speed_limit: 0}
+    - - 199
+      - 200
+      - {is_bidirectional: false, speed_limit: 0}
+    - - 200
+      - 201
+      - {is_bidirectional: false, speed_limit: 0}
+    - - 201
+      - 202
+      - {speed_limit: 0}
+    - - 202
+      - 201
+      - {speed_limit: 0}
+    - - 202
+      - 197
+      - {is_bidirectional: false, speed_limit: 0}
+    - - 200
+      - 203
+      - {is_bidirectional: false, speed_limit: 0}
+    - - 203
+      - 204
+      - {speed_limit: 0}
+    - - 204
+      - 203
+      - {speed_limit: 0}
+    - - 204
+      - 205
+      - {is_bidirectional: false, speed_limit: 0}
+    - - 205
+      - 202
+      - {is_bidirectional: false, speed_limit: 0}
+    - - 205
+      - 194
+      - {is_bidirectional: false, speed_limit: 0}
+    - - 203
+      - 206
+      - {is_bidirectional: false, speed_limit: 0}
+    - - 207
+      - 204
+      - {is_bidirectional: false, speed_limit: 0}
+    - - 208
+      - 205
+      - {is_bidirectional: false, speed_limit: 0}
+    - - 204
+      - 201
+      - {is_bidirectional: false, speed_limit: 0}
+    - - 190
+      - 209
+      - {speed_limit: 0}
+    - - 209
+      - 190
+      - {speed_limit: 0}
+    - - 209
+      - 210
+      - {speed_limit: 0}
+    - - 210
+      - 209
+      - {speed_limit: 0}
+    - - 191
+      - 211
+      - {speed_limit: 0}
+    - - 211
+      - 191
+      - {speed_limit: 0}
+    - - 211
+      - 146
+      - {speed_limit: 0}
+    - - 146
+      - 211
+      - {speed_limit: 0}
+    - - 98
+      - 191
+      - {speed_limit: 0}
+    - - 191
+      - 98
+      - {speed_limit: 0}
+    - - 190
+      - 189
+      - {speed_limit: 0}
+    - - 189
+      - 190
+      - {speed_limit: 0}
+    - - 189
+      - 188
+      - {speed_limit: 0}
+    - - 188
+      - 189
+      - {speed_limit: 0}
+    - - 189
+      - 210
+      - {speed_limit: 0}
+    - - 210
+      - 189
+      - {speed_limit: 0}
+    - - 210
+      - 212
+      - {speed_limit: 0}
+    - - 212
+      - 210
+      - {speed_limit: 0}
+    - - 212
+      - 213
+      - {speed_limit: 0}
+    - - 213
+      - 212
+      - {speed_limit: 0}
+    - - 213
+      - 214
+      - {speed_limit: 0}
+    - - 214
+      - 213
+      - {speed_limit: 0}
+    - - 214
+      - 215
+      - {speed_limit: 0}
+    - - 215
+      - 214
+      - {speed_limit: 0}
+    - - 215
+      - 216
+      - {speed_limit: 0}
+    - - 216
+      - 215
+      - {speed_limit: 0}
+    - - 216
+      - 217
+      - {speed_limit: 0}
+    - - 217
+      - 216
+      - {speed_limit: 0}
+    - - 217
+      - 218
+      - {speed_limit: 0}
+    - - 218
+      - 217
+      - {speed_limit: 0}
+    - - 218
+      - 219
+      - {speed_limit: 0}
+    - - 219
+      - 218
+      - {speed_limit: 0}
+    - - 219
+      - 220
+      - {speed_limit: 0}
+    - - 220
+      - 219
+      - {speed_limit: 0}
+    - - 220
+      - 221
+      - {speed_limit: 0}
+    - - 221
+      - 220
+      - {speed_limit: 0}
+    - - 221
+      - 222
+      - {speed_limit: 0}
+    - - 222
+      - 221
+      - {speed_limit: 0}
+    - - 222
+      - 223
+      - {speed_limit: 0}
+    - - 223
+      - 222
+      - {speed_limit: 0}
+    - - 223
+      - 224
+      - {speed_limit: 0}
+    - - 224
+      - 223
+      - {speed_limit: 0}
+    - - 143
+      - 225
+      - {speed_limit: 0}
+    - - 225
+      - 143
+      - {speed_limit: 0}
+    - - 225
+      - 226
+      - {speed_limit: 0}
+    - - 226
+      - 225
+      - {speed_limit: 0}
+    - - 226
+      - 223
+      - {speed_limit: 0}
+    - - 223
+      - 226
+      - {speed_limit: 0}
+    - - 227
+      - 226
+      - {speed_limit: 0}
+    - - 226
+      - 227
+      - {speed_limit: 0}
+    - - 228
+      - 225
+      - {speed_limit: 0}
+    - - 225
+      - 228
+      - {speed_limit: 0}
+    - - 222
+      - 229
+      - {speed_limit: 0}
+    - - 229
+      - 222
+      - {speed_limit: 0}
+    - - 221
+      - 230
+      - {speed_limit: 0}
+    - - 230
+      - 221
+      - {speed_limit: 0}
+    - - 231
+      - 157
+      - {speed_limit: 0}
+    - - 157
+      - 231
+      - {speed_limit: 0}
+    - - 232
+      - 158
+      - {speed_limit: 0}
+    - - 158
+      - 232
+      - {speed_limit: 0}
+    - - 220
+      - 233
+      - {speed_limit: 0}
+    - - 233
+      - 220
+      - {speed_limit: 0}
+    - - 219
+      - 234
+      - {speed_limit: 0}
+    - - 234
+      - 219
+      - {speed_limit: 0}
+    - - 218
+      - 235
+      - {speed_limit: 0}
+    - - 235
+      - 218
+      - {speed_limit: 0}
+    - - 236
+      - 154
+      - {speed_limit: 0}
+    - - 154
+      - 236
+      - {speed_limit: 0}
+    - - 237
+      - 155
+      - {speed_limit: 0}
+    - - 155
+      - 237
+      - {speed_limit: 0}
+    - - 238
+      - 156
+      - {speed_limit: 0}
+    - - 156
+      - 238
+      - {speed_limit: 0}
+    - - 216
+      - 239
+      - {speed_limit: 0}
+    - - 239
+      - 216
+      - {speed_limit: 0}
+    - - 217
+      - 240
+      - {speed_limit: 0}
+    - - 240
+      - 217
+      - {speed_limit: 0}
+    - - 241
+      - 152
+      - {speed_limit: 0}
+    - - 152
+      - 241
+      - {speed_limit: 0}
+    - - 242
+      - 153
+      - {speed_limit: 0}
+    - - 153
+      - 242
+      - {speed_limit: 0}
+    - - 215
+      - 243
+      - {speed_limit: 0}
+    - - 243
+      - 215
+      - {speed_limit: 0}
+    - - 243
+      - 244
+      - {speed_limit: 0}
+    - - 244
+      - 243
+      - {speed_limit: 0}
+    - - 244
+      - 151
+      - {speed_limit: 0}
+    - - 151
+      - 244
+      - {speed_limit: 0}
+    - - 245
+      - 243
+      - {speed_limit: 0}
+    - - 243
+      - 245
+      - {speed_limit: 0}
+    - - 243
+      - 239
+      - {speed_limit: 0}
+    - - 239
+      - 243
+      - {speed_limit: 0}
+    - - 246
+      - 244
+      - {speed_limit: 0}
+    - - 244
+      - 246
+      - {speed_limit: 0}
+    - - 244
+      - 241
+      - {speed_limit: 0}
+    - - 241
+      - 244
+      - {speed_limit: 0}
+    - - 214
+      - 245
+      - {speed_limit: 0}
+    - - 245
+      - 214
+      - {speed_limit: 0}
+    - - 246
+      - 150
+      - {speed_limit: 0}
+    - - 150
+      - 246
+      - {speed_limit: 0}
+    - - 212
+      - 247
+      - {speed_limit: 0}
+    - - 247
+      - 212
+      - {speed_limit: 0}
+    - - 213
+      - 248
+      - {speed_limit: 0}
+    - - 248
+      - 213
+      - {speed_limit: 0}
+    - - 249
+      - 148
+      - {speed_limit: 0}
+    - - 148
+      - 249
+      - {speed_limit: 0}
+    - - 250
+      - 149
+      - {speed_limit: 0}
+    - - 149
+      - 250
+      - {speed_limit: 0}
+    - - 188
+      - 251
+      - {speed_limit: 0}
+    - - 251
+      - 188
+      - {speed_limit: 0}
+    - - 251
+      - 210
+      - {speed_limit: 0}
+    - - 210
+      - 251
+      - {speed_limit: 0}
+    - - 181
+      - 252
+      - {speed_limit: 0}
+    - - 252
+      - 181
+      - {speed_limit: 0}
+    - - 252
+      - 253
+      - {speed_limit: 0}
+    - - 253
+      - 252
+      - {speed_limit: 0}
+    - - 253
+      - 187
+      - {speed_limit: 0}
+    - - 187
+      - 253
+      - {speed_limit: 0}
+    - - 187
+      - 181
+      - {speed_limit: 0}
+    - - 181
+      - 187
+      - {speed_limit: 0}
+    - - 187
+      - 188
+      - {speed_limit: 0}
+    - - 188
+      - 187
+      - {speed_limit: 0}
+    - - 192
+      - 254
+      - {speed_limit: 0}
+    - - 254
+      - 192
+      - {speed_limit: 0}
+    - - 254
+      - 255
+      - {speed_limit: 0}
+    - - 255
+      - 254
+      - {speed_limit: 0}
+    - - 255
+      - 256
+      - {speed_limit: 0}
+    - - 256
+      - 255
+      - {speed_limit: 0}
+    - - 256
+      - 257
+      - {speed_limit: 0}
+    - - 257
+      - 256
+      - {speed_limit: 0}
+    - - 257
+      - 258
+      - {speed_limit: 0}
+    - - 258
+      - 257
+      - {speed_limit: 0}
+    - - 258
+      - 259
+      - {speed_limit: 0}
+    - - 259
+      - 258
+      - {speed_limit: 0}
+    - - 259
+      - 260
+      - {speed_limit: 0}
+    - - 260
+      - 259
+      - {speed_limit: 0}
+    - - 260
+      - 261
+      - {speed_limit: 0}
+    - - 261
+      - 260
+      - {speed_limit: 0}
+    - - 261
+      - 262
+      - {speed_limit: 0}
+    - - 262
+      - 261
+      - {speed_limit: 0}
+    - - 262
+      - 263
+      - {speed_limit: 0}
+    - - 263
+      - 262
+      - {speed_limit: 0}
+    - - 263
+      - 264
+      - {speed_limit: 0}
+    - - 264
+      - 263
+      - {speed_limit: 0}
+    - - 264
+      - 206
+      - {speed_limit: 0}
+    - - 206
+      - 264
+      - {speed_limit: 0}
+    - - 206
+      - 207
+      - {speed_limit: 0}
+    - - 207
+      - 206
+      - {speed_limit: 0}
+    - - 207
+      - 208
+      - {speed_limit: 0}
+    - - 208
+      - 207
+      - {speed_limit: 0}
+    - - 255
+      - 193
+      - {is_bidirectional: false, speed_limit: 0}
+    - - 256
+      - 208
+      - {is_bidirectional: false, speed_limit: 0}
+    - - 257
+      - 207
+      - {is_bidirectional: false, speed_limit: 0}
+    - - 259
+      - 264
+      - {speed_limit: 0}
+    - - 264
+      - 259
+      - {speed_limit: 0}
+    - - 260
+      - 263
+      - {speed_limit: 0}
+    - - 263
+      - 260
+      - {speed_limit: 0}
+    - - 206
+      - 258
+      - {is_bidirectional: false, speed_limit: 0}
+    - - 252
+      - 265
+      - {speed_limit: 0}
+    - - 265
+      - 252
+      - {speed_limit: 0}
+    - - 265
+      - 266
+      - {speed_limit: 0}
+    - - 266
+      - 265
+      - {speed_limit: 0}
+    - - 266
+      - 267
+      - {speed_limit: 0}
+    - - 267
+      - 266
+      - {speed_limit: 0}
+    - - 267
+      - 268
+      - {speed_limit: 0}
+    - - 268
+      - 267
+      - {speed_limit: 0}
+    - - 268
+      - 269
+      - {speed_limit: 0}
+    - - 269
+      - 268
+      - {speed_limit: 0}
+    - - 269
+      - 270
+      - {speed_limit: 0}
+    - - 270
+      - 269
+      - {speed_limit: 0}
+    - - 270
+      - 271
+      - {speed_limit: 0}
+    - - 271
+      - 270
+      - {speed_limit: 0}
+    - - 271
+      - 272
+      - {speed_limit: 0}
+    - - 272
+      - 271
+      - {speed_limit: 0}
+    - - 272
+      - 273
+      - {speed_limit: 0}
+    - - 273
+      - 272
+      - {speed_limit: 0}
+    - - 273
+      - 274
+      - {speed_limit: 0}
+    - - 274
+      - 273
+      - {speed_limit: 0}
+    - - 274
+      - 275
+      - {speed_limit: 0}
+    - - 275
+      - 274
+      - {speed_limit: 0}
+    - - 275
+      - 276
+      - {speed_limit: 0}
+    - - 276
+      - 275
+      - {speed_limit: 0}
+    - - 276
+      - 277
+      - {speed_limit: 0}
+    - - 277
+      - 276
+      - {speed_limit: 0}
+    - - 277
+      - 278
+      - {speed_limit: 0}
+    - - 278
+      - 277
+      - {speed_limit: 0}
+    - - 278
+      - 279
+      - {speed_limit: 0}
+    - - 279
+      - 278
+      - {speed_limit: 0}
+    - - 279
+      - 280
+      - {speed_limit: 0}
+    - - 280
+      - 279
+      - {speed_limit: 0}
+    - - 281
+      - 277
+      - {speed_limit: 0}
+    - - 277
+      - 281
+      - {speed_limit: 0}
+    - - 276
+      - 282
+      - {speed_limit: 0}
+    - - 282
+      - 276
+      - {speed_limit: 0}
+    - - 282
+      - 283
+      - {speed_limit: 0}
+    - - 283
+      - 282
+      - {speed_limit: 0}
+    - - 283
+      - 284
+      - {speed_limit: 0}
+    - - 284
+      - 283
+      - {speed_limit: 0}
+    - - 284
+      - 281
+      - {speed_limit: 0}
+    - - 281
+      - 284
+      - {speed_limit: 0}
+    - - 283
+      - 223
+      - {speed_limit: 0}
+    - - 223
+      - 283
+      - {speed_limit: 0}
+    - - 282
+      - 285
+      - {speed_limit: 0}
+    - - 285
+      - 282
+      - {speed_limit: 0}
+    - - 285
+      - 275
+      - {speed_limit: 0}
+    - - 275
+      - 285
+      - {speed_limit: 0}
+    - - 283
+      - 286
+      - {speed_limit: 0}
+    - - 286
+      - 283
+      - {speed_limit: 0}
+    - - 286
+      - 222
+      - {speed_limit: 0}
+    - - 222
+      - 286
+      - {speed_limit: 0}
+    - - 274
+      - 287
+      - {speed_limit: 0}
+    - - 287
+      - 274
+      - {speed_limit: 0}
+    - - 273
+      - 288
+      - {speed_limit: 0}
+    - - 288
+      - 273
+      - {speed_limit: 0}
+    - - 289
+      - 220
+      - {speed_limit: 0}
+    - - 220
+      - 289
+      - {speed_limit: 0}
+    - - 290
+      - 221
+      - {speed_limit: 0}
+    - - 221
+      - 290
+      - {speed_limit: 0}
+    - - 272
+      - 291
+      - {speed_limit: 0}
+    - - 291
+      - 272
+      - {speed_limit: 0}
+    - - 292
+      - 219
+      - {speed_limit: 0}
+    - - 219
+      - 292
+      - {speed_limit: 0}
+    - - 271
+      - 293
+      - {speed_limit: 0}
+    - - 293
+      - 271
+      - {speed_limit: 0}
+    - - 293
+      - 294
+      - {speed_limit: 0}
+    - - 294
+      - 293
+      - {speed_limit: 0}
+    - - 294
+      - 218
+      - {speed_limit: 0}
+    - - 218
+      - 294
+      - {speed_limit: 0}
+    - - 268
+      - 295
+      - {speed_limit: 0}
+    - - 295
+      - 268
+      - {speed_limit: 0}
+    - - 295
+      - 296
+      - {speed_limit: 0}
+    - - 296
+      - 295
+      - {speed_limit: 0}
+    - - 296
+      - 215
+      - {speed_limit: 0}
+    - - 215
+      - 296
+      - {speed_limit: 0}
+    - - 295
+      - 297
+      - {speed_limit: 0}
+    - - 297
+      - 295
+      - {speed_limit: 0}
+    - - 297
+      - 267
+      - {speed_limit: 0}
+    - - 267
+      - 297
+      - {speed_limit: 0}
+    - - 296
+      - 298
+      - {speed_limit: 0}
+    - - 298
+      - 296
+      - {speed_limit: 0}
+    - - 298
+      - 214
+      - {speed_limit: 0}
+    - - 214
+      - 298
+      - {speed_limit: 0}
+    - - 265
+      - 299
+      - {speed_limit: 0}
+    - - 299
+      - 265
+      - {speed_limit: 0}
+    - - 266
+      - 300
+      - {speed_limit: 0}
+    - - 300
+      - 266
+      - {speed_limit: 0}
+    - - 301
+      - 212
+      - {speed_limit: 0}
+    - - 212
+      - 301
+      - {speed_limit: 0}
+    - - 302
+      - 213
+      - {speed_limit: 0}
+    - - 213
+      - 302
+      - {speed_limit: 0}
+    - - 279
+      - 303
+      - {speed_limit: 0}
+    - - 303
+      - 279
+      - {speed_limit: 0}
+    - - 303
+      - 304
+      - {speed_limit: 0}
+    - - 304
+      - 303
+      - {speed_limit: 0}
+    - - 304
+      - 305
+      - {speed_limit: 0}
+    - - 305
+      - 304
+      - {speed_limit: 0}
+    - - 305
+      - 306
+      - {speed_limit: 0}
+    - - 306
+      - 305
+      - {speed_limit: 0}
+    - - 306
+      - 307
+      - {speed_limit: 0}
+    - - 307
+      - 306
+      - {speed_limit: 0}
+    - - 307
+      - 308
+      - {speed_limit: 0}
+    - - 308
+      - 307
+      - {speed_limit: 0}
+    - - 308
+      - 309
+      - {speed_limit: 0}
+    - - 309
+      - 308
+      - {speed_limit: 0}
+    - - 309
+      - 310
+      - {speed_limit: 0}
+    - - 310
+      - 309
+      - {speed_limit: 0}
+    - - 310
+      - 311
+      - {speed_limit: 0}
+    - - 311
+      - 310
+      - {speed_limit: 0}
+    - - 311
+      - 312
+      - {speed_limit: 0}
+    - - 312
+      - 311
+      - {speed_limit: 0}
+    - - 312
+      - 313
+      - {speed_limit: 0}
+    - - 313
+      - 312
+      - {speed_limit: 0}
+    - - 313
+      - 314
+      - {speed_limit: 0}
+    - - 314
+      - 313
+      - {speed_limit: 0}
+    - - 314
+      - 315
+      - {speed_limit: 0}
+    - - 315
+      - 314
+      - {speed_limit: 0}
+    - - 315
+      - 316
+      - {speed_limit: 0}
+    - - 316
+      - 315
+      - {speed_limit: 0}
+    - - 316
+      - 317
+      - {speed_limit: 0}
+    - - 317
+      - 316
+      - {speed_limit: 0}
+    - - 317
+      - 318
+      - {speed_limit: 0}
+    - - 318
+      - 317
+      - {speed_limit: 0}
+    - - 318
+      - 319
+      - {speed_limit: 0}
+    - - 319
+      - 318
+      - {speed_limit: 0}
+    - - 319
+      - 320
+      - {speed_limit: 0}
+    - - 320
+      - 319
+      - {speed_limit: 0}
+    - - 320
+      - 321
+      - {speed_limit: 0}
+    - - 321
+      - 320
+      - {speed_limit: 0}
+    - - 321
+      - 322
+      - {speed_limit: 0}
+    - - 322
+      - 321
+      - {speed_limit: 0}
+    - - 322
+      - 323
+      - {speed_limit: 0}
+    - - 323
+      - 322
+      - {speed_limit: 0}
+    - - 323
+      - 324
+      - {speed_limit: 0}
+    - - 324
+      - 323
+      - {speed_limit: 0}
+    - - 324
+      - 325
+      - {speed_limit: 0}
+    - - 325
+      - 324
+      - {speed_limit: 0}
+    - - 325
+      - 261
+      - {speed_limit: 0}
+    - - 261
+      - 325
+      - {speed_limit: 0}
+    - - 325
+      - 326
+      - {speed_limit: 0}
+    - - 326
+      - 325
+      - {speed_limit: 0}
+    - - 326
+      - 260
+      - {speed_limit: 0}
+    - - 260
+      - 326
+      - {speed_limit: 0}
+    - - 259
+      - 327
+      - {speed_limit: 0}
+    - - 327
+      - 259
+      - {speed_limit: 0}
+    - - 327
+      - 328
+      - {speed_limit: 0}
+    - - 328
+      - 327
+      - {speed_limit: 0}
+    - - 328
+      - 258
+      - {speed_limit: 0}
+    - - 258
+      - 328
+      - {speed_limit: 0}
+    - - 328
+      - 329
+      - {speed_limit: 0}
+    - - 329
+      - 328
+      - {speed_limit: 0}
+    - - 329
+      - 330
+      - {speed_limit: 0}
+    - - 330
+      - 329
+      - {speed_limit: 0}
+    - - 330
+      - 331
+      - {speed_limit: 0}
+    - - 331
+      - 330
+      - {speed_limit: 0}
+    - - 331
+      - 332
+      - {speed_limit: 0}
+    - - 332
+      - 331
+      - {speed_limit: 0}
+    - - 332
+      - 333
+      - {speed_limit: 0}
+    - - 333
+      - 332
+      - {speed_limit: 0}
+    - - 333
+      - 334
+      - {speed_limit: 0}
+    - - 334
+      - 333
+      - {speed_limit: 0}
+    - - 334
+      - 321
+      - {speed_limit: 0}
+    - - 321
+      - 334
+      - {speed_limit: 0}
+    - - 332
+      - 335
+      - {speed_limit: 0}
+    - - 335
+      - 332
+      - {speed_limit: 0}
+    - - 335
+      - 336
+      - {speed_limit: 0}
+    - - 336
+      - 335
+      - {speed_limit: 0}
+    - - 336
+      - 337
+      - {speed_limit: 0}
+    - - 337
+      - 336
+      - {speed_limit: 0}
+    - - 337
+      - 338
+      - {speed_limit: 0}
+    - - 338
+      - 337
+      - {speed_limit: 0}
+    - - 338
+      - 268
+      - {speed_limit: 0}
+    - - 268
+      - 338
+      - {speed_limit: 0}
+    - - 313
+      - 339
+      - {speed_limit: 0}
+    - - 339
+      - 313
+      - {speed_limit: 0}
+    - - 339
+      - 340
+      - {speed_limit: 0}
+    - - 340
+      - 339
+      - {speed_limit: 0}
+    - - 340
+      - 341
+      - {speed_limit: 0}
+    - - 341
+      - 340
+      - {speed_limit: 0}
+    - - 341
+      - 342
+      - {speed_limit: 0}
+    - - 342
+      - 341
+      - {speed_limit: 0}
+    - - 342
+      - 343
+      - {speed_limit: 0}
+    - - 343
+      - 342
+      - {speed_limit: 0}
+    - - 343
+      - 344
+      - {speed_limit: 0}
+    - - 344
+      - 343
+      - {speed_limit: 0}
+    - - 344
+      - 345
+      - {speed_limit: 0}
+    - - 345
+      - 344
+      - {speed_limit: 0}
+    - - 345
+      - 276
+      - {speed_limit: 0}
+    - - 276
+      - 345
+      - {speed_limit: 0}
+    - - 307
+      - 346
+      - {speed_limit: 0}
+    - - 346
+      - 307
+      - {speed_limit: 0}
+    - - 346
+      - 347
+      - {speed_limit: 0}
+    - - 347
+      - 346
+      - {speed_limit: 0}
+    - - 347
+      - 341
+      - {speed_limit: 0}
+    - - 341
+      - 347
+      - {speed_limit: 0}
+    - - 341
+      - 348
+      - {speed_limit: 0}
+    - - 348
+      - 341
+      - {speed_limit: 0}
+    - - 348
+      - 349
+      - {speed_limit: 0}
+    - - 349
+      - 348
+      - {speed_limit: 0}
+    - - 349
+      - 350
+      - {speed_limit: 0}
+    - - 350
+      - 349
+      - {speed_limit: 0}
+    - - 350
+      - 351
+      - {speed_limit: 0}
+    - - 351
+      - 350
+      - {speed_limit: 0}
+    - - 351
+      - 352
+      - {speed_limit: 0}
+    - - 352
+      - 351
+      - {speed_limit: 0}
+    - - 352
+      - 353
+      - {speed_limit: 0}
+    - - 353
+      - 352
+      - {speed_limit: 0}
+    - - 353
+      - 354
+      - {speed_limit: 0}
+    - - 354
+      - 353
+      - {speed_limit: 0}
+    - - 354
+      - 332
+      - {speed_limit: 0}
+    - - 332
+      - 354
+      - {speed_limit: 0}
+    - - 256
+      - 355
+      - {speed_limit: 0}
+    - - 355
+      - 256
+      - {speed_limit: 0}
+    - - 355
+      - 356
+      - {speed_limit: 0}
+    - - 356
+      - 355
+      - {speed_limit: 0}
+    - - 356
+      - 357
+      - {speed_limit: 0}
+    - - 357
+      - 356
+      - {speed_limit: 0}
+    - - 357
+      - 358
+      - {speed_limit: 0}
+    - - 358
+      - 357
+      - {speed_limit: 0}
+    - - 358
+      - 336
+      - {speed_limit: 0}
+    - - 336
+      - 358
+      - {speed_limit: 0}
+    - - 336
+      - 359
+      - {speed_limit: 0}
+    - - 359
+      - 336
+      - {speed_limit: 0}
+    - - 359
+      - 360
+      - {speed_limit: 0}
+    - - 360
+      - 359
+      - {speed_limit: 0}
+    - - 360
+      - 361
+      - {speed_limit: 0}
+    - - 361
+      - 360
+      - {speed_limit: 0}
+    - - 361
+      - 362
+      - {speed_limit: 0}
+    - - 362
+      - 361
+      - {speed_limit: 0}
+    - - 362
+      - 363
+      - {speed_limit: 0}
+    - - 363
+      - 362
+      - {speed_limit: 0}
+    - - 363
+      - 364
+      - {speed_limit: 0}
+    - - 364
+      - 363
+      - {speed_limit: 0}
+    - - 364
+      - 365
+      - {speed_limit: 0}
+    - - 365
+      - 364
+      - {speed_limit: 0}
+    - - 365
+      - 343
+      - {speed_limit: 0}
+    - - 343
+      - 365
+      - {speed_limit: 0}
+    - - 255
+      - 366
+      - {speed_limit: 0}
+    - - 366
+      - 255
+      - {speed_limit: 0}
+    - - 366
+      - 355
+      - {speed_limit: 0}
+    - - 355
+      - 366
+      - {speed_limit: 0}
+    - - 254
+      - 367
+      - {speed_limit: 0}
+    - - 367
+      - 254
+      - {speed_limit: 0}
+    - - 367
+      - 252
+      - {speed_limit: 0}
+    - - 252
+      - 367
+      - {speed_limit: 0}
+    - - 181
+      - 254
+      - {speed_limit: 0}
+    - - 254
+      - 181
+      - {speed_limit: 0}
+    - - 356
+      - 368
+      - {speed_limit: 0}
+    - - 368
+      - 356
+      - {speed_limit: 0}
+    - - 369
+      - 265
+      - {speed_limit: 0}
+    - - 265
+      - 369
+      - {speed_limit: 0}
+    - - 357
+      - 370
+      - {speed_limit: 0}
+    - - 370
+      - 357
+      - {speed_limit: 0}
+    - - 371
+      - 266
+      - {speed_limit: 0}
+    - - 266
+      - 371
+      - {speed_limit: 0}
+    - - 358
+      - 372
+      - {speed_limit: 0}
+    - - 372
+      - 358
+      - {speed_limit: 0}
+    - - 373
+      - 267
+      - {speed_limit: 0}
+    - - 267
+      - 373
+      - {speed_limit: 0}
+    - - 337
+      - 372
+      - {speed_limit: 0}
+    - - 372
+      - 337
+      - {speed_limit: 0}
+    - - 338
+      - 373
+      - {speed_limit: 0}
+    - - 373
+      - 338
+      - {speed_limit: 0}
+    - - 328
+      - 374
+      - {speed_limit: 0}
+    - - 374
+      - 328
+      - {speed_limit: 0}
+    - - 374
+      - 257
+      - {speed_limit: 0}
+    - - 257
+      - 374
+      - {speed_limit: 0}
+    - - 355
+      - 374
+      - {speed_limit: 0}
+    - - 374
+      - 355
+      - {speed_limit: 0}
+    - - 329
+      - 375
+      - {speed_limit: 0}
+    - - 375
+      - 329
+      - {speed_limit: 0}
+    - - 375
+      - 356
+      - {speed_limit: 0}
+    - - 356
+      - 375
+      - {speed_limit: 0}
+    - - 330
+      - 376
+      - {speed_limit: 0}
+    - - 376
+      - 330
+      - {speed_limit: 0}
+    - - 376
+      - 357
+      - {speed_limit: 0}
+    - - 357
+      - 376
+      - {speed_limit: 0}
+    - - 331
+      - 377
+      - {speed_limit: 0}
+    - - 377
+      - 331
+      - {speed_limit: 0}
+    - - 377
+      - 358
+      - {speed_limit: 0}
+    - - 358
+      - 377
+      - {speed_limit: 0}
+    - - 335
+      - 377
+      - {speed_limit: 0}
+    - - 377
+      - 335
+      - {speed_limit: 0}
+    - - 324
+      - 378
+      - {speed_limit: 0}
+    - - 378
+      - 324
+      - {speed_limit: 0}
+    - - 379
+      - 329
+      - {speed_limit: 0}
+    - - 329
+      - 379
+      - {speed_limit: 0}
+    - - 323
+      - 380
+      - {speed_limit: 0}
+    - - 380
+      - 323
+      - {speed_limit: 0}
+    - - 322
+      - 381
+      - {speed_limit: 0}
+    - - 381
+      - 322
+      - {speed_limit: 0}
+    - - 382
+      - 330
+      - {speed_limit: 0}
+    - - 330
+      - 382
+      - {speed_limit: 0}
+    - - 383
+      - 331
+      - {speed_limit: 0}
+    - - 331
+      - 383
+      - {speed_limit: 0}
+    - - 333
+      - 384
+      - {speed_limit: 0}
+    - - 384
+      - 333
+      - {speed_limit: 0}
+    - - 384
+      - 354
+      - {speed_limit: 0}
+    - - 354
+      - 384
+      - {speed_limit: 0}
+    - - 334
+      - 385
+      - {speed_limit: 0}
+    - - 385
+      - 334
+      - {speed_limit: 0}
+    - - 385
+      - 320
+      - {speed_limit: 0}
+    - - 320
+      - 385
+      - {speed_limit: 0}
+    - - 319
+      - 386
+      - {speed_limit: 0}
+    - - 386
+      - 319
+      - {speed_limit: 0}
+    - - 386
+      - 385
+      - {speed_limit: 0}
+    - - 385
+      - 386
+      - {speed_limit: 0}
+    - - 385
+      - 384
+      - {speed_limit: 0}
+    - - 384
+      - 385
+      - {speed_limit: 0}
+    - - 386
+      - 387
+      - {speed_limit: 0}
+    - - 387
+      - 386
+      - {speed_limit: 0}
+    - - 387
+      - 353
+      - {speed_limit: 0}
+    - - 353
+      - 387
+      - {speed_limit: 0}
+    - - 312
+      - 388
+      - {speed_limit: 0}
+    - - 388
+      - 312
+      - {speed_limit: 0}
+    - - 388
+      - 339
+      - {speed_limit: 0}
+    - - 339
+      - 388
+      - {speed_limit: 0}
+    - - 311
+      - 389
+      - {speed_limit: 0}
+    - - 389
+      - 311
+      - {speed_limit: 0}
+    - - 389
+      - 309
+      - {speed_limit: 0}
+    - - 309
+      - 389
+      - {speed_limit: 0}
+    - - 389
+      - 388
+      - {speed_limit: 0}
+    - - 388
+      - 389
+      - {speed_limit: 0}
+    - - 389
+      - 390
+      - {speed_limit: 0}
+    - - 390
+      - 389
+      - {speed_limit: 0}
+    - - 390
+      - 308
+      - {speed_limit: 0}
+    - - 308
+      - 390
+      - {speed_limit: 0}
+    - - 390
+      - 346
+      - {speed_limit: 0}
+    - - 346
+      - 390
+      - {speed_limit: 0}
+    - - 346
+      - 391
+      - {speed_limit: 0}
+    - - 391
+      - 346
+      - {speed_limit: 0}
+    - - 340
+      - 392
+      - {speed_limit: 0}
+    - - 392
+      - 340
+      - {speed_limit: 0}
+    - - 392
+      - 347
+      - {speed_limit: 0}
+    - - 347
+      - 392
+      - {speed_limit: 0}
+    - - 347
+      - 393
+      - {speed_limit: 0}
+    - - 393
+      - 347
+      - {speed_limit: 0}
+    - - 393
+      - 342
+      - {speed_limit: 0}
+    - - 342
+      - 393
+      - {speed_limit: 0}
+    - - 391
+      - 306
+      - {speed_limit: 0}
+    - - 306
+      - 391
+      - {speed_limit: 0}
+    - - 305
+      - 394
+      - {speed_limit: 0}
+    - - 394
+      - 305
+      - {speed_limit: 0}
+    - - 304
+      - 395
+      - {speed_limit: 0}
+    - - 395
+      - 304
+      - {speed_limit: 0}
+    - - 303
+      - 396
+      - {speed_limit: 0}
+    - - 396
+      - 303
+      - {speed_limit: 0}
+    - - 396
+      - 278
+      - {speed_limit: 0}
+    - - 278
+      - 396
+      - {speed_limit: 0}
+    - - 397
+      - 343
+      - {speed_limit: 0}
+    - - 343
+      - 397
+      - {speed_limit: 0}
+    - - 398
+      - 344
+      - {speed_limit: 0}
+    - - 344
+      - 398
+      - {speed_limit: 0}
+    - - 399
+      - 345
+      - {speed_limit: 0}
+    - - 345
+      - 399
+      - {speed_limit: 0}
+    - - 277
+      - 399
+      - {speed_limit: 0}
+    - - 399
+      - 277
+      - {speed_limit: 0}
+    - - 354
+      - 400
+      - {speed_limit: 0}
+    - - 400
+      - 354
+      - {speed_limit: 0}
+    - - 400
+      - 335
+      - {speed_limit: 0}
+    - - 335
+      - 400
+      - {speed_limit: 0}
+    - - 337
+      - 401
+      - {speed_limit: 0}
+    - - 401
+      - 337
+      - {speed_limit: 0}
+    - - 338
+      - 402
+      - {speed_limit: 0}
+    - - 402
+      - 338
+      - {speed_limit: 0}
+    - - 402
+      - 269
+      - {speed_limit: 0}
+    - - 269
+      - 402
+      - {speed_limit: 0}
+    - - 401
+      - 359
+      - {speed_limit: 0}
+    - - 359
+      - 401
+      - {speed_limit: 0}
+    - - 360
+      - 403
+      - {speed_limit: 0}
+    - - 403
+      - 360
+      - {speed_limit: 0}
+    - - 404
+      - 270
+      - {speed_limit: 0}
+    - - 270
+      - 404
+      - {speed_limit: 0}
+    - - 361
+      - 405
+      - {speed_limit: 0}
+    - - 405
+      - 361
+      - {speed_limit: 0}
+    - - 406
+      - 271
+      - {speed_limit: 0}
+    - - 271
+      - 406
+      - {speed_limit: 0}
+    - - 362
+      - 407
+      - {speed_limit: 0}
+    - - 407
+      - 362
+      - {speed_limit: 0}
+    - - 408
+      - 272
+      - {speed_limit: 0}
+    - - 272
+      - 408
+      - {speed_limit: 0}
+    - - 363
+      - 409
+      - {speed_limit: 0}
+    - - 409
+      - 363
+      - {speed_limit: 0}
+    - - 410
+      - 273
+      - {speed_limit: 0}
+    - - 273
+      - 410
+      - {speed_limit: 0}
+    - - 364
+      - 411
+      - {speed_limit: 0}
+    - - 411
+      - 364
+      - {speed_limit: 0}
+    - - 412
+      - 274
+      - {speed_limit: 0}
+    - - 274
+      - 412
+      - {speed_limit: 0}
+    - - 365
+      - 413
+      - {speed_limit: 0}
+    - - 413
+      - 365
+      - {speed_limit: 0}
+    - - 413
+      - 344
+      - {speed_limit: 0}
+    - - 344
+      - 413
+      - {speed_limit: 0}
+    - - 275
+      - 414
+      - {speed_limit: 0}
+    - - 414
+      - 275
+      - {speed_limit: 0}
+    - - 414
+      - 345
+      - {speed_limit: 0}
+    - - 345
+      - 414
+      - {speed_limit: 0}
+    - - 365
+      - 415
+      - {speed_limit: 0}
+    - - 415
+      - 365
+      - {speed_limit: 0}
+    - - 415
+      - 348
+      - {speed_limit: 0}
+    - - 348
+      - 415
+      - {speed_limit: 0}
+    - - 364
+      - 416
+      - {speed_limit: 0}
+    - - 416
+      - 364
+      - {speed_limit: 0}
+    - - 416
+      - 349
+      - {speed_limit: 0}
+    - - 349
+      - 416
+      - {speed_limit: 0}
+    - - 363
+      - 417
+      - {speed_limit: 0}
+    - - 417
+      - 363
+      - {speed_limit: 0}
+    - - 417
+      - 350
+      - {speed_limit: 0}
+    - - 350
+      - 417
+      - {speed_limit: 0}
+    - - 362
+      - 418
+      - {speed_limit: 0}
+    - - 418
+      - 362
+      - {speed_limit: 0}
+    - - 418
+      - 351
+      - {speed_limit: 0}
+    - - 351
+      - 418
+      - {speed_limit: 0}
+    - - 351
+      - 419
+      - {speed_limit: 0}
+    - - 419
+      - 351
+      - {speed_limit: 0}
+    - - 361
+      - 420
+      - {speed_limit: 0}
+    - - 420
+      - 361
+      - {speed_limit: 0}
+    - - 420
+      - 352
+      - {speed_limit: 0}
+    - - 352
+      - 420
+      - {speed_limit: 0}
+    - - 352
+      - 421
+      - {speed_limit: 0}
+    - - 421
+      - 352
+      - {speed_limit: 0}
+    - - 360
+      - 422
+      - {speed_limit: 0}
+    - - 422
+      - 360
+      - {speed_limit: 0}
+    - - 423
+      - 350
+      - {speed_limit: 0}
+    - - 350
+      - 423
+      - {speed_limit: 0}
+    - - 424
+      - 349
+      - {speed_limit: 0}
+    - - 349
+      - 424
+      - {speed_limit: 0}
+    - - 425
+      - 348
+      - {speed_limit: 0}
+    - - 348
+      - 425
+      - {speed_limit: 0}
+    - - 314
+      - 426
+      - {speed_limit: 0}
+    - - 426
+      - 314
+      - {speed_limit: 0}
+    - - 315
+      - 427
+      - {speed_limit: 0}
+    - - 427
+      - 315
+      - {speed_limit: 0}
+    - - 316
+      - 428
+      - {speed_limit: 0}
+    - - 428
+      - 316
+      - {speed_limit: 0}
+    - - 317
+      - 429
+      - {speed_limit: 0}
+    - - 429
+      - 317
+      - {speed_limit: 0}
+    - - 318
+      - 430
+      - {speed_limit: 0}
+    - - 430
+      - 318
+      - {speed_limit: 0}
+    - - 144
+      - 228
+      - {speed_limit: 0}
+    - - 228
+      - 144
+      - {speed_limit: 0}
+    - - 228
+      - 227
+      - {speed_limit: 0}
+    - - 227
+      - 228
+      - {speed_limit: 0}
+    - - 227
+      - 224
+      - {speed_limit: 0}
+    - - 224
+      - 227
+      - {speed_limit: 0}
+    - - 224
+      - 284
+      - {speed_limit: 0}
+    - - 284
+      - 224
+      - {speed_limit: 0}
+    - - 353
+      - 422
+      - {speed_limit: 0}
+    - - 422
+      - 353
+      - {speed_limit: 0}
+    - - 342
+      - 415
+      - {speed_limit: 0}
+    - - 415
+      - 342
+      - {speed_limit: 0}
+    - - 339
+      - 426
+      - {speed_limit: 0}
+    - - 426
+      - 339
+      - {speed_limit: 0}
+    - - 340
+      - 425
+      - {speed_limit: 0}
+    - - 425
+      - 340
+      - {speed_limit: 0}
+    vertices:
+    - - 162.60000000000002
+      - -44.400000000000006
+      - {is_charger: true, is_parking_spot: true, name: AGV1, spawn_robot_name: AGV1,
+        spawn_robot_type: cloudy}
+    - - 159.55
+      - -44.400000000000006
+      - {name: ''}
+    - - 156.5
+      - -44.400000000000006
+      - {name: ''}
+    - - 152.35
+      - -44.400000000000006
+      - {is_passthrough_point: false, name: r1}
+    - - 156.5
+      - -48.5
+      - {name: ''}
+    - - 156.5
+      - -52.650000000000006
+      - {name: ''}
+    - - 152.35
+      - -52.650000000000006
+      - {is_passthrough_point: false, name: r3}
+    - - 162.60000000000002
+      - -52.650000000000006
+      - {is_charger: true, is_parking_spot: true, name: AGV2, spawn_robot_name: AGV2,
+        spawn_robot_type: cloudy}
+    - - 159.55
+      - -52.650000000000006
+      - {name: ''}
+    - - 156.5
+      - -56.800000000000004
+      - {name: ''}
+    - - 152.35
+      - -56.800000000000004
+      - {is_passthrough_point: false, name: r4}
+    - - 152.35
+      - -48.5
+      - {is_passthrough_point: false, name: r2}
+    - - 156.5
+      - -40.25
+      - {name: ''}
+    - - 156.5
+      - -36.1
+      - {name: ''}
+    - - 152.35
+      - -36.1
+      - {name: ''}
+    - - 152.35
+      - -40.25
+      - {name: ''}
+    - - 148.25
+      - -40.25
+      - {name: ''}
+    - - 148.25
+      - -36.1
+      - {name: ''}
+    - - 144.1
+      - -36.1
+      - {name: ''}
+    - - 144.1
+      - -40.25
+      - {name: ''}
+    - - 144.1
+      - -44.400000000000006
+      - {name: ''}
+    - - 148.25
+      - -44.400000000000006
+      - {is_passthrough_point: false, name: r9}
+    - - 144.1
+      - -48.5
+      - {name: ''}
+    - - 144.1
+      - -52.650000000000006
+      - {name: ''}
+    - - 144.1
+      - -56.800000000000004
+      - {name: ''}
+    - - 148.25
+      - -56.800000000000004
+      - {is_passthrough_point: false, name: r5}
+    - - 148.25
+      - -52.650000000000006
+      - {is_passthrough_point: false, name: r6}
+    - - 148.25
+      - -48.5
+      - {is_passthrough_point: false, name: r7}
+    - - 162.60000000000002
+      - -60.900000000000006
+      - {is_charger: true, is_parking_spot: true, name: AGV3, spawn_robot_name: AGV3,
+        spawn_robot_type: cloudy}
+    - - 159.55
+      - -60.900000000000006
+      - {name: ''}
+    - - 156.5
+      - -60.900000000000006
+      - {name: ''}
+    - - 152.35
+      - -60.900000000000006
+      - {name: ''}
+    - - 148.25
+      - -60.900000000000006
+      - {name: ''}
+    - - 144.1
+      - -60.900000000000006
+      - {name: ''}
+    - - 144.1
+      - -65.05
+      - {name: ''}
+    - - 148.25
+      - -65.05
+      - {is_passthrough_point: false, name: r15}
+    - - 144.1
+      - -69.2
+      - {name: ''}
+    - - 144.10094999999998
+      - -73.3
+      - {name: ''}
+    - - 144.1
+      - -77.45
+      - {name: ''}
+    - - 144.1
+      - -81.55000000000001
+      - {name: ''}
+    - - 144.1
+      - -85.7
+      - {name: ''}
+    - - 144.1
+      - -89.85000000000001
+      - {name: ''}
+    - - 144.1
+      - -93.95
+      - {name: ''}
+    - - 144.1
+      - -98.15
+      - {is_parking_spot: true, is_passthrough_point: false, name: AGV11}
+    - - 156.5
+      - -65.05
+      - {name: ''}
+    - - 156.5
+      - -69.2
+      - {name: ''}
+    - - 156.5
+      - -73.3
+      - {name: ''}
+    - - 156.5
+      - -77.45
+      - {name: ''}
+    - - 156.5
+      - -81.55000000000001
+      - {name: ''}
+    - - 156.5
+      - -85.7
+      - {name: ''}
+    - - 156.5
+      - -89.85000000000001
+      - {name: ''}
+    - - 156.5
+      - -93.94665
+      - {name: ''}
+    - - 156.5
+      - -98.15
+      - {is_charger: true, is_parking_spot: true, is_passthrough_point: false, name: AGV8}
+    - - 152.35
+      - -65.05
+      - {is_passthrough_point: false, name: r16}
+    - - 162.60000000000002
+      - -69.2
+      - {is_charger: true, is_parking_spot: true, name: AGV4, spawn_robot_name: AGV1,
+        spawn_robot_type: cloudy}
+    - - 159.55
+      - -69.2
+      - {name: ''}
+    - - 152.35
+      - -69.2
+      - {is_passthrough_point: false, name: r8}
+    - - 152.35
+      - -73.30985
+      - {is_passthrough_point: false, name: r10}
+    - - 162.60000000000002
+      - -77.45
+      - {is_charger: true, is_parking_spot: true, name: AGV5, spawn_robot_name: AGV5,
+        spawn_robot_type: cloudy}
+    - - 159.55
+      - -77.45
+      - {name: ''}
+    - - 152.35
+      - -77.45
+      - {is_passthrough_point: false, name: r11}
+    - - 152.35
+      - -81.55000000000001
+      - {is_passthrough_point: false, name: r12}
+    - - 162.60000000000002
+      - -85.7
+      - {is_charger: true, is_parking_spot: true, name: AGV6, spawn_robot_name: AGV6,
+        spawn_robot_type: cloudy}
+    - - 159.55
+      - -85.7
+      - {name: ''}
+    - - 152.35
+      - -85.7
+      - {is_passthrough_point: false, name: r13}
+    - - 152.35
+      - -89.85000000000001
+      - {is_passthrough_point: false, name: r14}
+    - - 162.60000000000002
+      - -93.95
+      - {is_charger: true, is_parking_spot: true, name: AGV7, spawn_robot_name: AGV7,
+        spawn_robot_type: cloudy}
+    - - 159.55
+      - -93.95
+      - {name: ''}
+    - - 152.35
+      - -93.95
+      - {name: ''}
+    - - 152.35
+      - -98.15
+      - {is_charger: true, is_parking_spot: true, is_passthrough_point: false, name: AGV9}
+    - - 148.25
+      - -89.85000000000001
+      - {is_passthrough_point: false, name: r22}
+    - - 148.25
+      - -93.95
+      - {name: ''}
+    - - 148.25
+      - -98.15
+      - {is_charger: true, is_parking_spot: true, is_passthrough_point: false, name: AGV10}
+    - - 148.25
+      - -85.7
+      - {is_passthrough_point: false, name: r21}
+    - - 148.25
+      - -81.55000000000001
+      - {is_passthrough_point: false, name: r20}
+    - - 148.25
+      - -77.45
+      - {is_passthrough_point: false, name: r19}
+    - - 148.25
+      - -73.3
+      - {name: r18}
+    - - 148.25
+      - -69.2
+      - {is_passthrough_point: false, name: r17}
+    - - 139.95000000000002
+      - -36.1
+      - {name: ''}
+    - - 139.95000000000002
+      - -40.25
+      - {name: ''}
+    - - 139.95000000000002
+      - -44.400000000000006
+      - {is_passthrough_point: false, name: r23}
+    - - 139.95000000000002
+      - -60.900000000000006
+      - {name: ''}
+    - - 139.95000000000002
+      - -65.05
+      - {is_passthrough_point: false, name: r27}
+    - - 139.95000000000002
+      - -89.85000000000001
+      - {is_passthrough_point: false, name: r33}
+    - - 139.95000000000002
+      - -93.95
+      - {name: ''}
+    - - 139.95000000000002
+      - -98.15
+      - {is_parking_spot: true, is_passthrough_point: false, name: AGV12}
+    - - 139.95000000000002
+      - -85.7245
+      - {is_passthrough_point: false, name: r32}
+    - - 139.95000000000002
+      - -81.55000000000001
+      - {is_passthrough_point: false, name: r31}
+    - - 139.95000000000002
+      - -77.45
+      - {is_passthrough_point: false, name: r30}
+    - - 139.95000000000002
+      - -73.3
+      - {is_passthrough_point: false, name: r29}
+    - - 139.95000000000002
+      - -69.2
+      - {is_passthrough_point: false, name: r28}
+    - - 139.95000000000002
+      - -56.800000000000004
+      - {is_passthrough_point: false, name: r26}
+    - - 139.95000000000002
+      - -52.650000000000006
+      - {is_passthrough_point: false, name: r25}
+    - - 139.95000000000002
+      - -48.5
+      - {is_passthrough_point: false, name: r24}
+    - - 135.85
+      - -36.1
+      - {name: ''}
+    - - 135.85
+      - -40.25
+      - {name: ''}
+    - - 131.70000000000002
+      - -40.25
+      - {name: ''}
+    - - 127.55000000000001
+      - -40.25
+      - {name: ''}
+    - - 123.45
+      - -40.25
+      - {name: ''}
+    - - 131.70000000000002
+      - -36.1
+      - {name: ''}
+    - - 127.55000000000001
+      - -36.1
+      - {name: ''}
+    - - 123.45
+      - -36.1
+      - {name: ''}
+    - - 135.85
+      - -32.0
+      - {name: ''}
+    - - 135.85
+      - -27.900000000000002
+      - {name: ''}
+    - - 135.85
+      - -22.85
+      - {name: ''}
+    - - 131.70000000000002
+      - -22.85
+      - {name: ''}
+    - - 127.55000000000001
+      - -22.85
+      - {is_passthrough_point: false, name: d1}
+    - - 123.45
+      - -22.85
+      - {name: ''}
+    - - 123.45
+      - -27.900000000000002
+      - {name: ''}
+    - - 131.70000000000002
+      - -27.900000000000002
+      - {name: ''}
+    - - 123.45
+      - -32.0
+      - {name: ''}
+    - - 127.55000000000001
+      - -32.0
+      - {name: ''}
+    - - 131.70000000000002
+      - -32.0
+      - {name: ''}
+    - - 135.85
+      - -44.400000000000006
+      - {is_passthrough_point: false, name: r34}
+    - - 131.70000000000002
+      - -44.400000000000006
+      - {name: ''}
+    - - 131.70000000000002
+      - -48.5
+      - {name: ''}
+    - - 131.70000000000002
+      - -52.650000000000006
+      - {name: ''}
+    - - 131.70000000000002
+      - -56.800000000000004
+      - {name: ''}
+    - - 131.70000000000002
+      - -60.900000000000006
+      - {name: ''}
+    - - 135.85
+      - -60.900000000000006
+      - {name: ''}
+    - - 135.85
+      - -56.800000000000004
+      - {is_passthrough_point: false, name: r37}
+    - - 135.85
+      - -48.5
+      - {is_passthrough_point: false, name: r35}
+    - - 135.85
+      - -52.650000000000006
+      - {is_passthrough_point: false, name: r36}
+    - - 131.70000000000002
+      - -65.05
+      - {name: ''}
+    - - 135.85
+      - -65.05
+      - {is_passthrough_point: false, name: r38}
+    - - 131.70000000000002
+      - -69.2
+      - {is_passthrough_point: false, name: ''}
+    - - 131.70000000000002
+      - -73.3
+      - {name: ''}
+    - - 131.70000000000002
+      - -77.45
+      - {name: ''}
+    - - 131.70000000000002
+      - -81.55000000000001
+      - {name: ''}
+    - - 131.70000000000002
+      - -85.7
+      - {name: ''}
+    - - 131.70000000000002
+      - -89.85000000000001
+      - {name: ''}
+    - - 131.70000000000002
+      - -93.95
+      - {name: ''}
+    - - 131.70000000000002
+      - -98.15
+      - {is_parking_spot: true, is_passthrough_point: false, name: AGV14}
+    - - 135.85
+      - -93.95
+      - {name: ''}
+    - - 135.85
+      - -98.15
+      - {is_parking_spot: true, is_passthrough_point: false, name: AGV13}
+    - - 135.85
+      - -89.85000000000001
+      - {is_passthrough_point: false, name: r44}
+    - - 135.85
+      - -85.7245
+      - {is_passthrough_point: false, name: r43}
+    - - 135.85
+      - -81.55000000000001
+      - {is_passthrough_point: false, name: r42}
+    - - 135.85
+      - -77.45
+      - {is_passthrough_point: false, name: r41}
+    - - 135.85
+      - -73.3
+      - {is_passthrough_point: false, name: r40}
+    - - 135.85
+      - -69.2
+      - {is_passthrough_point: false, name: r39}
+    - - 127.55000000000001
+      - -93.95
+      - {name: ''}
+    - - 127.55000000000001
+      - -98.15
+      - {is_parking_spot: true, is_passthrough_point: false, name: AGV15}
+    - - 123.45
+      - -93.95
+      - {name: ''}
+    - - 123.45
+      - -98.15
+      - {is_parking_spot: true, is_passthrough_point: false, name: AGV16}
+    - - 127.55000000000001
+      - -44.400000000000006
+      - {is_passthrough_point: false, name: r45}
+    - - 123.45
+      - -44.400000000000006
+      - {name: ''}
+    - - 127.55000000000001
+      - -48.5
+      - {is_passthrough_point: false, name: r46}
+    - - 123.45
+      - -48.5
+      - {name: ''}
+    - - 123.45
+      - -52.650000000000006
+      - {name: ''}
+    - - 123.45
+      - -56.800000000000004
+      - {name: ''}
+    - - 123.45
+      - -60.900000000000006
+      - {name: ''}
+    - - 123.45
+      - -65.05
+      - {name: ''}
+    - - 123.45
+      - -69.2
+      - {name: ''}
+    - - 123.45
+      - -73.3
+      - {name: ''}
+    - - 123.45
+      - -77.45
+      - {name: ''}
+    - - 123.45
+      - -81.55000000000001
+      - {name: ''}
+    - - 123.45
+      - -85.7
+      - {name: ''}
+    - - 123.45
+      - -89.85000000000001
+      - {name: ''}
+    - - 127.55000000000001
+      - -89.85000000000001
+      - {is_passthrough_point: false, name: r55}
+    - - 127.55000000000001
+      - -85.7
+      - {is_passthrough_point: false, name: r54}
+    - - 127.55000000000001
+      - -81.55000000000001
+      - {is_passthrough_point: false, name: r53}
+    - - 127.55000000000001
+      - -77.45
+      - {is_passthrough_point: false, name: r52}
+    - - 127.55000000000001
+      - -73.3
+      - {is_passthrough_point: false, name: r51}
+    - - 127.55000000000001
+      - -69.2
+      - {is_passthrough_point: false, name: r50}
+    - - 127.55000000000001
+      - -65.05
+      - {is_passthrough_point: false, name: r49}
+    - - 127.55000000000001
+      - -60.900000000000006
+      - {name: ''}
+    - - 127.55000000000001
+      - -56.800000000000004
+      - {is_passthrough_point: false, name: r48}
+    - - 127.55000000000001
+      - -52.650000000000006
+      - {is_passthrough_point: false, name: r47}
+    - - 119.30000000000001
+      - -36.1
+      - {name: ''}
+    - - 115.15
+      - -36.1
+      - {name: ''}
+    - - 115.15
+      - -32.0
+      - {name: ''}
+    - - 115.15
+      - -27.900000000000002
+      - {name: ''}
+    - - 115.15
+      - -22.85
+      - {name: ''}
+    - - 111.05000000000001
+      - -22.85
+      - {name: ''}
+    - - 106.9
+      - -22.85
+      - {is_passthrough_point: false, name: d2}
+    - - 102.80000000000001
+      - -22.85
+      - {name: ''}
+    - - 98.65
+      - -22.85
+      - {name: ''}
+    - - 98.65
+      - -27.900000000000002
+      - {name: ''}
+    - - 98.65
+      - -32.0
+      - {name: ''}
+    - - 98.65
+      - -36.1
+      - {name: ''}
+    - - 98.65
+      - -40.25
+      - {name: ''}
+    - - 102.80000000000001
+      - -36.1
+      - {name: ''}
+    - - 106.9
+      - -36.1
+      - {name: ''}
+    - - 111.05000000000001
+      - -36.1
+      - {name: ''}
+    - - 111.05000000000001
+      - -32.0
+      - {name: ''}
+    - - 111.05000000000001
+      - -27.900000000000002
+      - {name: ''}
+    - - 102.80000000000001
+      - -40.25
+      - {name: ''}
+    - - 106.9
+      - -40.25
+      - {name: ''}
+    - - 111.05000000000001
+      - -40.25
+      - {name: ''}
+    - - 115.15
+      - -40.25
+      - {name: ''}
+    - - 119.30000000000001
+      - -40.25
+      - {name: ''}
+    - - 94.5
+      - -36.1
+      - {name: ''}
+    - - 90.4
+      - -36.1
+      - {name: ''}
+    - - 90.4
+      - -32.0
+      - {name: ''}
+    - - 90.4
+      - -27.900000000000002
+      - {name: ''}
+    - - 90.4
+      - -22.85
+      - {name: ''}
+    - - 86.25
+      - -22.85
+      - {name: ''}
+    - - 82.15
+      - -22.85
+      - {is_passthrough_point: false, name: d3}
+    - - 78.0
+      - -22.85
+      - {name: ''}
+    - - 78.0
+      - -27.900000000000002
+      - {name: ''}
+    - - 82.15
+      - -27.900000000000002
+      - {name: ''}
+    - - 86.25
+      - -27.900000000000002
+      - {name: ''}
+    - - 78.0
+      - -32.0
+      - {name: ''}
+    - - 82.15
+      - -32.0
+      - {name: ''}
+    - - 86.25
+      - -32.0
+      - {name: ''}
+    - - 78.0
+      - -36.1
+      - {name: ''}
+    - - 82.15
+      - -36.1
+      - {name: ''}
+    - - 86.25
+      - -36.1
+      - {name: ''}
+    - - 115.15
+      - -44.400000000000006
+      - {is_passthrough_point: false, name: r67}
+    - - 111.05000000000001
+      - -44.400000000000006
+      - {name: ''}
+    - - 119.30000000000001
+      - -44.400000000000006
+      - {is_passthrough_point: false, name: r56}
+    - - 111.05000000000001
+      - -48.5
+      - {name: ''}
+    - - 111.05000000000001
+      - -52.650000000000006
+      - {name: ''}
+    - - 111.05000000000001
+      - -56.800000000000004
+      - {name: ''}
+    - - 111.05000000000001
+      - -60.900000000000006
+      - {name: ''}
+    - - 111.05000000000001
+      - -65.05
+      - {name: ''}
+    - - 111.05000000000001
+      - -69.2
+      - {name: ''}
+    - - 111.05000000000001
+      - -73.3
+      - {name: ''}
+    - - 111.05000000000001
+      - -77.45
+      - {name: ''}
+    - - 111.05000000000001
+      - -81.55000000000001
+      - {name: ''}
+    - - 111.05000000000001
+      - -85.7
+      - {name: ''}
+    - - 111.05000000000001
+      - -89.85000000000001
+      - {name: ''}
+    - - 111.05000000000001
+      - -93.95
+      - {name: ''}
+    - - 111.05000000000001
+      - -98.15
+      - {name: ''}
+    - - 119.30000000000001
+      - -93.95
+      - {name: ''}
+    - - 115.15
+      - -93.95
+      - {name: ''}
+    - - 115.15
+      - -98.15
+      - {name: ''}
+    - - 119.30000000000001
+      - -98.15
+      - {name: ''}
+    - - 115.15
+      - -89.85000000000001
+      - {is_passthrough_point: false, name: r77}
+    - - 115.15
+      - -85.7
+      - {is_passthrough_point: false, name: r76}
+    - - 119.30000000000001
+      - -85.7
+      - {is_passthrough_point: false, name: r65}
+    - - 119.30000000000001
+      - -89.85000000000001
+      - {is_passthrough_point: false, name: r66}
+    - - 115.15
+      - -81.55000000000001
+      - {is_passthrough_point: false, name: r75}
+    - - 115.15
+      - -77.45
+      - {is_passthrough_point: false, name: r74}
+    - - 115.15
+      - -73.3
+      - {is_passthrough_point: false, name: r73}
+    - - 119.30000000000001
+      - -73.3
+      - {is_passthrough_point: false, name: r62}
+    - - 119.30000000000001
+      - -77.45
+      - {is_passthrough_point: false, name: r63}
+    - - 119.30000000000001
+      - -81.55000000000001
+      - {is_passthrough_point: false, name: r64}
+    - - 115.15
+      - -65.05
+      - {is_passthrough_point: false, name: r71}
+    - - 115.15
+      - -69.2
+      - {is_passthrough_point: false, name: r72}
+    - - 119.30000000000001
+      - -65.05
+      - {is_passthrough_point: false, name: r60}
+    - - 119.30000000000001
+      - -69.2
+      - {is_passthrough_point: false, name: r61}
+    - - 115.15
+      - -60.900000000000006
+      - {name: ''}
+    - - 119.30000000000001
+      - -60.900000000000006
+      - {name: ''}
+    - - 115.15
+      - -56.800000000000004
+      - {is_passthrough_point: false, name: r70}
+    - - 119.30000000000001
+      - -56.800000000000004
+      - {is_passthrough_point: false, name: r59}
+    - - 115.15
+      - -48.5
+      - {is_passthrough_point: false, name: r68}
+    - - 115.15
+      - -52.650000000000006
+      - {is_passthrough_point: false, name: r69}
+    - - 119.30000000000001
+      - -48.5
+      - {is_passthrough_point: false, name: r57}
+    - - 119.30000000000001
+      - -52.650000000000006
+      - {is_passthrough_point: false, name: r58}
+    - - 106.9
+      - -44.400000000000006
+      - {is_passthrough_point: false, name: r78}
+    - - 98.65
+      - -44.400000000000006
+      - {name: ''}
+    - - 102.80000000000001
+      - -44.400000000000006
+      - {is_passthrough_point: false, name: r86}
+    - - 94.5
+      - -40.25
+      - {name: ''}
+    - - 90.4
+      - -40.25
+      - {name: ''}
+    - - 86.25
+      - -40.25
+      - {name: ''}
+    - - 82.15
+      - -40.25
+      - {name: ''}
+    - - 78.0
+      - -40.25
+      - {name: ''}
+    - - 73.85000000000001
+      - -40.25
+      - {name: ''}
+    - - 69.75
+      - -40.25
+      - {name: ''}
+    - - 65.60000000000001
+      - -40.25
+      - {name: ''}
+    - - 65.60000000000001
+      - -36.1
+      - {name: ''}
+    - - 69.75
+      - -36.1
+      - {name: ''}
+    - - 73.85000000000001
+      - -36.1
+      - {name: ''}
+    - - 98.65
+      - -48.5
+      - {name: ''}
+    - - 98.65
+      - -52.650000000000006
+      - {name: ''}
+    - - 98.65
+      - -56.800000000000004
+      - {name: ''}
+    - - 98.65
+      - -60.900000000000006
+      - {name: ''}
+    - - 98.65
+      - -65.05
+      - {name: ''}
+    - - 98.65
+      - -69.2
+      - {name: ''}
+    - - 98.65
+      - -73.3
+      - {name: ''}
+    - - 98.65
+      - -77.45
+      - {name: ''}
+    - - 98.65
+      - -81.55000000000001
+      - {name: ''}
+    - - 98.65
+      - -85.7
+      - {name: ''}
+    - - 98.65
+      - -89.85000000000001
+      - {name: ''}
+    - - 98.65
+      - -93.95
+      - {name: ''}
+    - - 98.65
+      - -98.15
+      - {name: ''}
+    - - 98.65
+      - -102.25
+      - {name: ''}
+    - - 98.65
+      - -106.4
+      - {name: ''}
+    - - 102.80000000000001
+      - -106.4
+      - {is_charger: true, name: charger4}
+    - - 102.80000000000001
+      - -98.15
+      - {is_charger: true, name: charger3}
+    - - 102.80000000000001
+      - -93.95
+      - {name: ''}
+    - - 106.9
+      - -93.95
+      - {name: ''}
+    - - 106.9
+      - -98.15
+      - {name: ''}
+    - - 102.80000000000001
+      - -89.85000000000001
+      - {is_passthrough_point: false, name: r93}
+    - - 106.9
+      - -89.85000000000001
+      - {is_passthrough_point: false, name: r85}
+    - - 102.80000000000001
+      - -85.7
+      - {is_passthrough_point: false, name: r92}
+    - - 102.80000000000001
+      - -81.55000000000001
+      - {is_passthrough_point: false, name: r91}
+    - - 106.9
+      - -81.55000000000001
+      - {is_passthrough_point: false, name: r83}
+    - - 106.9
+      - -85.7
+      - {is_passthrough_point: false, name: r84}
+    - - 102.80000000000001
+      - -77.45
+      - {is_passthrough_point: false, name: r90}
+    - - 106.9
+      - -77.45
+      - {is_passthrough_point: false, name: r82}
+    - - 102.80000000000001
+      - -73.3
+      - {is_charger: true, name: charger2}
+    - - 106.9
+      - -73.3
+      - {is_charger: true, name: charger1}
+    - - 102.80000000000001
+      - -60.900000000000006
+      - {name: ''}
+    - - 106.9
+      - -60.900000000000006
+      - {name: ''}
+    - - 102.80000000000001
+      - -56.800000000000004
+      - {is_passthrough_point: false, name: r89}
+    - - 106.9
+      - -56.800000000000004
+      - {is_passthrough_point: false, name: r81}
+    - - 102.80000000000001
+      - -48.5
+      - {is_passthrough_point: false, name: r87}
+    - - 102.80000000000001
+      - -52.650000000000006
+      - {is_passthrough_point: false, name: r88}
+    - - 106.9
+      - -48.5
+      - {is_passthrough_point: false, name: r79}
+    - - 106.9
+      - -52.650000000000006
+      - {is_passthrough_point: false, name: r80}
+    - - 94.5
+      - -106.4
+      - {name: ''}
+    - - 90.4
+      - -106.4
+      - {name: ''}
+    - - 86.25
+      - -106.4
+      - {name: ''}
+    - - 82.15
+      - -106.4
+      - {name: ''}
+    - - 78.0
+      - -106.4
+      - {name: ''}
+    - - 73.85000000000001
+      - -106.4
+      - {name: ''}
+    - - 69.75
+      - -106.4
+      - {name: ''}
+    - - 65.60000000000001
+      - -106.4
+      - {name: ''}
+    - - 65.60000000000001
+      - -102.25
+      - {name: ''}
+    - - 65.60000000000001
+      - -98.15
+      - {name: ''}
+    - - 65.60000000000001
+      - -93.95
+      - {name: ''}
+    - - 65.60000000000001
+      - -89.85000000000001
+      - {name: ''}
+    - - 65.60000000000001
+      - -85.7
+      - {name: ''}
+    - - 65.60000000000001
+      - -81.55000000000001
+      - {name: ''}
+    - - 65.60000000000001
+      - -77.45
+      - {name: ''}
+    - - 65.60000000000001
+      - -73.3
+      - {name: ''}
+    - - 65.60000000000001
+      - -69.2
+      - {name: ''}
+    - - 65.60000000000001
+      - -65.05
+      - {name: ''}
+    - - 65.60000000000001
+      - -60.900000000000006
+      - {name: ''}
+    - - 65.60000000000001
+      - -56.800000000000004
+      - {name: ''}
+    - - 65.60000000000001
+      - -52.650000000000006
+      - {name: ''}
+    - - 65.60000000000001
+      - -48.5
+      - {name: ''}
+    - - 65.60000000000001
+      - -44.400000000000006
+      - {name: ''}
+    - - 69.75
+      - -44.400000000000006
+      - {is_passthrough_point: false, name: r148}
+    - - 73.85000000000001
+      - -44.400000000000006
+      - {is_passthrough_point: false, name: r135}
+    - - 78.0
+      - -44.400000000000006
+      - {name: ''}
+    - - 78.0
+      - -48.5
+      - {name: ''}
+    - - 78.0
+      - -52.650000000000006
+      - {name: ''}
+    - - 78.0
+      - -56.800000000000004
+      - {name: ''}
+    - - 78.0
+      - -60.900000000000006
+      - {name: ''}
+    - - 73.85000000000001
+      - -60.900000000000006
+      - {name: ''}
+    - - 69.75
+      - -60.900000000000006
+      - {name: ''}
+    - - 82.15
+      - -60.900000000000006
+      - {name: ''}
+    - - 86.25
+      - -60.900000000000006
+      - {name: ''}
+    - - 90.4
+      - -60.900000000000006
+      - {name: ''}
+    - - 94.5
+      - -60.900000000000006
+      - {name: ''}
+    - - 69.75
+      - -93.95
+      - {name: ''}
+    - - 73.85000000000001
+      - -93.95
+      - {name: ''}
+    - - 78.0
+      - -93.95
+      - {name: ''}
+    - - 82.15
+      - -93.95
+      - {name: ''}
+    - - 86.25
+      - -93.95
+      - {name: ''}
+    - - 90.4
+      - -93.95
+      - {name: ''}
+    - - 94.5
+      - -93.95
+      - {name: ''}
+    - - 78.0
+      - -102.25
+      - {name: ''}
+    - - 78.0
+      - -98.15
+      - {name: ''}
+    - - 78.0
+      - -89.85000000000001
+      - {name: ''}
+    - - 78.0
+      - -85.7
+      - {name: ''}
+    - - 78.0
+      - -81.55000000000001
+      - {name: ''}
+    - - 78.0
+      - -77.45
+      - {name: ''}
+    - - 78.0
+      - -73.3
+      - {name: ''}
+    - - 78.0
+      - -69.2
+      - {name: ''}
+    - - 78.0
+      - -65.05
+      - {name: ''}
+    - - 86.25
+      - -44.400000000000006
+      - {name: ''}
+    - - 86.25
+      - -48.5
+      - {name: ''}
+    - - 86.25
+      - -52.650000000000006
+      - {name: ''}
+    - - 86.25
+      - -56.800000000000004
+      - {name: ''}
+    - - 86.25
+      - -65.05
+      - {name: ''}
+    - - 86.25
+      - -69.2
+      - {name: ''}
+    - - 86.25
+      - -73.3
+      - {name: ''}
+    - - 86.25
+      - -77.45
+      - {name: ''}
+    - - 86.25
+      - -81.55000000000001
+      - {name: ''}
+    - - 86.25
+      - -85.7
+      - {name: ''}
+    - - 86.25
+      - -89.85000000000001
+      - {name: ''}
+    - - 90.4
+      - -44.400000000000006
+      - {is_passthrough_point: false, name: r107}
+    - - 94.5
+      - -44.400000000000006
+      - {is_passthrough_point: false, name: r94}
+    - - 90.4
+      - -48.5
+      - {is_passthrough_point: false, name: r108}
+    - - 94.5
+      - -48.5
+      - {is_passthrough_point: false, name: r95}
+    - - 90.4
+      - -52.650000000000006
+      - {is_passthrough_point: false, name: r109}
+    - - 94.5
+      - -52.650000000000006
+      - {is_passthrough_point: false, name: r96}
+    - - 90.4
+      - -56.800000000000004
+      - {is_passthrough_point: false, name: r110}
+    - - 94.5
+      - -56.800000000000004
+      - {is_passthrough_point: false, name: r97}
+    - - 82.15
+      - -44.400000000000006
+      - {is_passthrough_point: false, name: r120}
+    - - 82.15
+      - -48.5
+      - {is_passthrough_point: false, name: r121}
+    - - 82.15
+      - -52.650000000000006
+      - {is_passthrough_point: false, name: r122}
+    - - 82.15
+      - -56.800000000000004
+      - {is_passthrough_point: false, name: r123}
+    - - 69.75
+      - -48.5
+      - {is_passthrough_point: false, name: r149}
+    - - 73.85000000000001
+      - -48.5
+      - {is_passthrough_point: false, name: r136}
+    - - 69.75
+      - -52.650000000000006
+      - {is_passthrough_point: false, name: r150}
+    - - 69.75
+      - -56.800000000000004
+      - {is_passthrough_point: false, name: r151}
+    - - 73.85000000000001
+      - -52.650000000000006
+      - {is_passthrough_point: false, name: r137}
+    - - 73.85000000000001
+      - -56.800000000000004
+      - {is_passthrough_point: false, name: r138}
+    - - 73.85000000000001
+      - -65.05
+      - {is_passthrough_point: false, name: r139}
+    - - 69.75
+      - -65.05
+      - {name: ''}
+    - - 69.75
+      - -69.2
+      - {name: ''}
+    - - 73.85000000000001
+      - -69.2
+      - {is_passthrough_point: false, name: r140}
+    - - 69.75
+      - -98.15
+      - {is_passthrough_point: false, name: r157}
+    - - 69.75
+      - -102.25
+      - {name: ''}
+    - - 73.85000000000001
+      - -102.25
+      - {is_passthrough_point: false, name: r147}
+    - - 82.15
+      - -102.25
+      - {is_passthrough_point: false, name: r134}
+    - - 73.85000000000001
+      - -98.15
+      - {is_passthrough_point: false, name: r146}
+    - - 82.15
+      - -98.15
+      - {is_passthrough_point: false, name: r132}
+    - - 86.25
+      - -102.25
+      - {is_passthrough_point: false, name: r133}
+    - - 90.4
+      - -102.25
+      - {is_passthrough_point: false, name: r119}
+    - - 94.5
+      - -102.25
+      - {is_passthrough_point: false, name: r106}
+    - - 86.25
+      - -98.15
+      - {is_passthrough_point: false, name: r131}
+    - - 90.4
+      - -98.15
+      - {is_passthrough_point: false, name: r118}
+    - - 94.5
+      - -98.15
+      - {is_passthrough_point: false, name: r105}
+    - - 82.15
+      - -65.05
+      - {is_passthrough_point: false, name: r124}
+    - - 90.4
+      - -65.05
+      - {is_passthrough_point: false, name: r111}
+    - - 94.5
+      - -65.05
+      - {is_passthrough_point: false, name: r98}
+    - - 90.4
+      - -69.2
+      - {is_passthrough_point: false, name: r112}
+    - - 94.5
+      - -69.2
+      - {is_passthrough_point: false, name: r99}
+    - - 90.4
+      - -73.3
+      - {is_passthrough_point: false, name: r113}
+    - - 94.5
+      - -73.3
+      - {is_passthrough_point: false, name: r100}
+    - - 90.4
+      - -77.45
+      - {is_passthrough_point: false, name: r114}
+    - - 94.5
+      - -77.45
+      - {is_passthrough_point: false, name: r101}
+    - - 90.4
+      - -81.55000000000001
+      - {is_passthrough_point: false, name: r115}
+    - - 94.5
+      - -81.55000000000001
+      - {is_passthrough_point: false, name: r102}
+    - - 90.4
+      - -85.7
+      - {is_passthrough_point: false, name: r116}
+    - - 94.5
+      - -85.7
+      - {is_passthrough_point: false, name: r103}
+    - - 90.4
+      - -89.85000000000001
+      - {is_passthrough_point: false, name: r117}
+    - - 94.5
+      - -89.85000000000001
+      - {is_passthrough_point: false, name: r104}
+    - - 82.15
+      - -89.85000000000001
+      - {is_passthrough_point: false, name: r130}
+    - - 82.15
+      - -85.7
+      - {is_passthrough_point: false, name: r129}
+    - - 82.15
+      - -81.55000000000001
+      - {is_passthrough_point: false, name: r128}
+    - - 82.15
+      - -77.45
+      - {is_passthrough_point: false, name: r127}
+    - - 73.85000000000001
+      - -77.45
+      - {is_passthrough_point: false, name: r142}
+    - - 82.15
+      - -73.3
+      - {is_passthrough_point: false, name: r126}
+    - - 73.85000000000001
+      - -73.3
+      - {is_passthrough_point: false, name: r141}
+    - - 82.15
+      - -69.2
+      - {is_passthrough_point: false, name: r125}
+    - - 73.85000000000001
+      - -81.55000000000001
+      - {is_passthrough_point: false, name: r143}
+    - - 73.85000000000001
+      - -85.7
+      - {is_passthrough_point: false, name: r144}
+    - - 73.85000000000001
+      - -89.85000000000001
+      - {is_passthrough_point: false, name: r145}
+    - - 69.75
+      - -89.85000000000001
+      - {is_passthrough_point: false, name: r156}
+    - - 69.75
+      - -85.7
+      - {is_passthrough_point: false, name: r155}
+    - - 69.75
+      - -81.55000000000001
+      - {is_passthrough_point: false, name: r154}
+    - - 69.75
+      - -77.45
+      - {is_passthrough_point: false, name: r153}
+    - - 69.75
+      - -73.3
+      - {is_passthrough_point: false, name: r152}

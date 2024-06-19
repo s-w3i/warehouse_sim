@@ -23,6 +23,7 @@ setup(
             'move_to_waypoint = robot_control.move_to_waypoint:main',
             'fake_action_server = robot_control.fake_action_server:main',
             'fake_action_client = robot_control.fake_action_client:main',
+            'battery_simulator = robot_control.battery_simulator:main',
         ],
     },
 )
