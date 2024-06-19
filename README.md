@@ -4,7 +4,7 @@ This packages also involved the application of `free_fleet` server and client, p
 
 Required packages:
 - [`free_fleet`] (https://github.com/open-rmf/free_fleet)
-
+- [`open-rmf`] (https://github.com/open-rmf/rmf)
 
 # Setup and Execution
 ## Launching the Simulation
@@ -12,7 +12,7 @@ Required packages:
 To start the simulation and spawn robots, each with its own navigation stack, run the following command:
 
 ```bash
-ros2 launch robot_bringup robot.launch.py
+ros2 launch robot_bringup robots.launch.py
 ```
 This command initializes the robots in predefined namespaces and positions as configured in the robots.yaml file under robot_bringup/config.
 
@@ -51,7 +51,19 @@ All robots can be visualized simultaneously in a single RViz window, which facil
 
 
 # Moving the Robot
+For example: 
 ```bash
 ros2 run ff_examples_ros2 send_destination_request.py -f v1 -r AGV1 -x 3 -y 2 --yaw 0.0 -i 11125 -l L1
 ```
 This is the example to move robot `AGV1` in `v1` fleet at `L1` floor number to position `(3,2)` with facing angle `0`
+
+# Open-RMF
+To start simulation with open_rmf
+- To start fleet manager, server and rviz
+```bash
+ros2 launch rmf_sim warehouse_sim.launch.xml
+```
+- To start the robots, in another terminal
+```bash
+ros2 launch robot_bringup robots.launch.py
+```
