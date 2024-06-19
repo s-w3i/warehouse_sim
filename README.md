@@ -1,5 +1,7 @@
 # Multi-Robot Simulation with simple navigator
-A simple 2D multi-AGVs simulator with `Rviz2` on ROS2 `humble`, a simple navigator node called `simple_path_planner` was used to replace `nav2`. There are no any sensors plugin involved. The navigator moved based on changing the robot `base_footprint` at certain period of time with predefined speed
+A simple 2D multi-AGVs simulator with `Rviz2` on ROS2 `humble`, a simple navigator node called `simple_path_planner` was used to replace `nav2`. 
+There are no any sensors plugin involved. The navigator moved based on changing the robot `base_footprint` at certain period of time with predefined speed. `battery_simulator` node had been created to calculate the battery level for both charging and draining. 
+
 This packages also involved the application of `free_fleet` server and client, prepared for itegration with `open-rmf`
 
 Required packages:
