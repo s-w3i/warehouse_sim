@@ -34,7 +34,7 @@ ros2 run robot_control fake_action_client --ros-args -r __ns:=/AGV1
 ## Adding More Robots
 To add more robots to the simulation:
 
-1. Navigate to robot_nav/config/robots.yaml.
+1. Navigate to robot_bringup/config/robots.yaml.
 2. Add a new entry for each robot with the following parameters:
    - namespace: Unique identifier for the robot (e.g., AGV8).
    - initial_pose_x: Starting x-coordinate of the robot.
