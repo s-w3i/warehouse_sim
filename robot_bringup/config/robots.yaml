@@ -27,4 +27,40 @@ robots:
     initial_position:
       x: 162.60
       y: -93.95
+  - namespace: AGV8
+    initial_position:
+      x: 156.5
+      y: -98.15
+  - namespace: AGV9
+    initial_position:
+      x: 152.35
+      y: -98.15
+  - namespace: AGV10
+    initial_position:
+      x: 148.25
+      y: -98.15
+  - namespace: AGV11
+    initial_position:
+      x: 144.1
+      y: -98.15
+  - namespace: AGV12
+    initial_position:
+      x: 139.95
+      y: -98.15
+  - namespace: AGV13
+    initial_position:
+      x: 135.85
+      y: -98.15
+  - namespace: AGV14
+    initial_position:
+      x: 131.70
+      y: -98.15
+  - namespace: AGV15
+    initial_position:
+      x: 127.55
+      y: -98.15
+  - namespace: AGV16
+    initial_position:
+      x: 123.45
+      y: -98.15
   # Add more robots as needed
