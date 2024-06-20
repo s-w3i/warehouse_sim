@@ -7,9 +7,10 @@ This packages also involved the application of `free_fleet` server and client, p
 Required packages:
 - [`free_fleet`] (https://github.com/open-rmf/free_fleet)
 - [`open-rmf`] (https://github.com/open-rmf/rmf)
+- [`nav2`] (https://github.com/ros-navigation/navigation2/tree/main) - this is for `nav2` `navigate_to_pose` interface required by `free_fleet`
+- [`xacro`]
 
-# Setup and Execution
-## Launching the Simulation
+# Launching the Simulation
 
 To start the simulation and spawn robots, each with its own navigation stack, run the following command:
 
@@ -27,7 +28,7 @@ To navigate the robots in RViz:
 
 This setup allows you to control each robot individually by setting goals within their respective namespaces.
 
-3. Launchn the navigation action client using CLI, for example for AGV1
+3. Launch the navigation action client using CLI, for example for AGV1
 ```bash
 ros2 run robot_control fake_action_client --ros-args -r __ns:=/AGV1
 ```
