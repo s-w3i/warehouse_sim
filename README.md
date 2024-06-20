@@ -70,7 +70,7 @@ ros2 launch rmf_sim warehouse_sim.launch.xml
 ```bash
 ros2 launch robot_bringup robots.launch.py
 ```
-`nav2`
+
 # TO-DO
 1. Create own fleet adapter to remove the dependency of `free_fleet` to run the simulation. (Clients didnt register to server while client node bringup correctly) 
 2. Expand the layout
