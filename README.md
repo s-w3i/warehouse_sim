@@ -70,11 +70,17 @@ ros2 launch rmf_sim warehouse_sim.launch.xml
 ```bash
 ros2 launch robot_bringup robots.launch.py
 ```
-
+- To send single destination to robots
+For `go_to_palce`, it will move the robot to target position. `-F` = fleet name, `-R` = robot name, `-p` = destination
+```bash
+ros2 run rmf_demos_tasks dispatch_go_to_place -F v1 -R AGV15 -p r60
+```
+Process of spawnming 7 robots and moving them using `go_to_place`
 ![robots spawn and move](https://github.com/s-w3i/warehouse_sim/blob/main/spawn.gif)
 
 # TO-DO
 1. Create own fleet adapter to remove the dependency of `free_fleet` to run the simulation. (Clients didnt register to server while client node bringup correctly, robot position not updated in fleet_state) 
 ![robots stop and disconnect](https://github.com/s-w3i/warehouse_sim/blob/main/fleet_state.gif)
+Can see that AGV6 was not registered and AGV3 and 4 stop to update their status
 2. Expand the layout
 3. Robot travelling time and distance record per task 
