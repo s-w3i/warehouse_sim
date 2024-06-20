@@ -82,6 +82,7 @@ Process of spawnming 7 robots and moving them using `go_to_place`
 1. Create own fleet adapter to remove the dependency of `free_fleet` to run the simulation. (Clients didnt register to server while client node bringup correctly, robot position not updated in fleet_state) 
 ![robots stop and disconnect](https://github.com/s-w3i/warehouse_sim/blob/main/fleet_state.gif)
 
-Can see that AGV6 was not registered and AGV3 and 4 stop to update their status
+Can see that AGV6 was not registered and AGV3 and 4 stop to update their 
+
 2. Expand the layout
 3. Robot travelling time and distance record per task 
