@@ -7,6 +7,7 @@ from builtin_interfaces.msg import Duration
 from tf2_ros import TransformBroadcaster
 import math
 import time
+from robot_interfaces.msg import RobotState  # Replace with your actual package name
 
 class SimplePathPlanner(Node):
     def __init__(self):
@@ -44,12 +45,22 @@ class SimplePathPlanner(Node):
         # Create a timer to run the control loop at a fixed frequency
         self.timer = self.create_timer(0.1, self.control_loop)
 
+        # Robot status
+        #self.status = 'idle'  # Initial status is idle
+
+        # Publisher for robot state
+        self.state_publisher = self.create_publisher(RobotState, 'robot_state', 10)
+
     def set_goal(self, pose):
         self.target_position = pose.pose.position
+        self.status = 'moving'  # Update status to moving when a goal is set
         self.get_logger().info(f'Received new target position: x={self.target_position.x}, y={self.target_position.y}')
+        self.publish_state()
 
     def control_loop(self):
         if self.target_position is None:
+            self.status = 'idle'  # No target position means robot is idle
+            self.publish_state()
             return
 
         # Compute the distance and angle to the target
@@ -70,11 +81,11 @@ class SimplePathPlanner(Node):
         else:
             rotation_direction = reverse_yaw_error
 
-            # PD controller for angular speed
+        # PD controller for angular speed
         angular_speed = self.kp * rotation_direction + self.kd * (rotation_direction - self.prev_yaw_error)
         self.prev_yaw_error = rotation_direction
 
-            # Rotate first if needed
+        # Rotate first if needed
         if abs(rotation_direction) > 0.1:
             linear_speed = 0.0  # No linear speed during rotation
         else:
@@ -91,11 +102,13 @@ class SimplePathPlanner(Node):
         if distance < 0.05:
             self.get_logger().info('Target position reached.')
             self.target_position = None
+            self.status = 'idle'  # Update status to idle when the target is reached
+
+        # Publish the robot state
+        self.publish_state()
 
         # Debug logs for tracing
-        self.get_logger().info(f'Distance to target: {distance}')
-        #self.get_logger().info(f'Current position: x={self.current_position.x}, y={self.current_position.y}')
-        #self.get_logger().info(f'Target position: x={self.target_position.x}, y={self.target_position.y}')
+        self.get_logger().info(f'Status: {self.status}, Distance to target: {distance}')
         self.get_logger().info(f'Linear speed: {linear_speed}, Angular speed: {angular_speed}')
 
     def update_position(self, linear_speed, angular_speed):
@@ -127,6 +140,14 @@ class SimplePathPlanner(Node):
 
         # Update the current orientation
         self.current_orientation = new_transform.transform.rotation
+
+    def publish_state(self):
+        state_msg = RobotState()
+        state_msg.status = self.status
+        state_msg.current_pose = PoseStamped()
+        state_msg.current_pose.pose.position = self.current_position
+        state_msg.current_pose.pose.orientation = self.current_orientation
+        self.state_publisher.publish(state_msg)
 
     def get_yaw_from_quaternion(self, q):
         # Convert quaternion to yaw

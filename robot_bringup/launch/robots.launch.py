@@ -51,6 +51,16 @@ def generate_launch_description():
                         {"initial_y":initial_position["y"]}],
         )
 
+        robot_state = Node(
+            package="robot_control",
+            executable="state_publisher",
+            #name="simple_path_planner",
+            namespace=namespace,
+            parameters=[{"robot_name":namespace},
+                        {"initial_x":initial_position["x"]},
+                        {"initial_y":initial_position["y"]}],
+        )
+        
         static_publisher = Node(
             package="tf2_ros",
             executable="static_transform_publisher",
@@ -90,6 +100,6 @@ def generate_launch_description():
                 ]
             )
         
-        all_robot_actions.extend([robot,robot_control,static_publisher,battery_state,fleet_client])
+        all_robot_actions.extend([robot,robot_control,static_publisher,battery_state,robot_state,fleet_client])
 
     return LaunchDescription(all_robot_actions+[maps])
