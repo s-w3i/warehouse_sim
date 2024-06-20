@@ -71,10 +71,10 @@ ros2 launch rmf_sim warehouse_sim.launch.xml
 ros2 launch robot_bringup robots.launch.py
 ```
 
-![robots spawn and move gif] (https://github.com/s-w3i/warehouse_sim/blob/main/spawn.gif)
+![robots spawn and move](https://github.com/s-w3i/warehouse_sim/blob/main/spawn.gif)
 
 # TO-DO
 1. Create own fleet adapter to remove the dependency of `free_fleet` to run the simulation. (Clients didnt register to server while client node bringup correctly, robot position not updated in fleet_state) 
-![robots stop and disconnect gif] (https://github.com/s-w3i/warehouse_sim/blob/main/fleet_state.gif)
+![robots stop and disconnect](https://github.com/s-w3i/warehouse_sim/blob/main/fleet_state.gif)
 2. Expand the layout
 3. Robot travelling time and distance record per task 
