@@ -12,7 +12,7 @@ https://github.com/ros-simulation/gazebo_ros_demos/blob/kinetic-devel/robolaunch
   <xacro:arg name="prefix" default="" />
   <xacro:arg name="robot_name" default="" />
 
-  <xacro:include filename="$(find robolaunch_cloudy_description)/urdf/robots/cloudy_v2_core.xacro" />
+  <xacro:include filename="$(find robot_bringup)/urdf/cloudy_v2_core.xacro" />
 
   <xacro:diffbot prefix="$(arg prefix)" 
                   robot_name="$(arg robot_name)"/>

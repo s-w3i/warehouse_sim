@@ -49,7 +49,7 @@
         <visual>
             <origin xyz="0 0.15 -0.02" rpy="1.57 0 0"/>
             <geometry>
-                <mesh scale="${scale_ratio} ${scale_ratio} ${scale_ratio}" filename="file://$(find robolaunch_cloudy_description)/urdf/meshes/body_v2.stl"/>
+                <mesh scale="${scale_ratio} ${scale_ratio} ${scale_ratio}" filename="file://$(find robot_bringup)/urdf/meshes/body_v2.stl"/>
             </geometry>
             <material name="gray"/>
         </visual>
@@ -82,7 +82,7 @@
     <link name="${prefix}right_wheel">
         <visual>
             <geometry>
-                <mesh scale="${scale_ratio} ${scale_ratio} ${scale_ratio}" filename="file://$(find robolaunch_cloudy_description)/urdf/meshes/wheel_v2.stl" />
+                <mesh scale="${scale_ratio} ${scale_ratio} ${scale_ratio}" filename="file://$(find robot_bringup)/urdf/meshes/wheel_v2.stl" />
             </geometry>
             <material name="white"/>
             <origin xyz="-0.067 -0.05 -0.15" rpy="0 0 0" />
@@ -112,7 +112,7 @@
     <link name="${prefix}left_wheel">
         <visual>
             <geometry>
-                <mesh scale="${scale_ratio} ${scale_ratio} ${scale_ratio}" filename="file://$(find robolaunch_cloudy_description)/urdf/meshes/wheel_v2.stl" />
+                <mesh scale="${scale_ratio} ${scale_ratio} ${scale_ratio}" filename="file://$(find robot_bringup)/urdf/meshes/wheel_v2.stl" />
             </geometry>
             <origin xyz="-0.067 -0.05 -0.15" rpy="0 0 0" />
             <material name="white"/>
