@@ -31,6 +31,10 @@
 
     </link>
 
+    <link name="${prefix}base_footprint">
+
+    </link>
+
     <joint name="${prefix}base_to_footprint" type="fixed">
       <parent link="${prefix}base_footprint"/>
       <child link="${prefix}base_link"/>
