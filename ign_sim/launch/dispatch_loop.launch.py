@@ -5,8 +5,8 @@ from launch_ros.actions import Node
 from launch.actions import TimerAction, OpaqueFunction
 
 # List of pickup points and drop-off points
-pickup_points = [f'r{i+1}' for i in range(209)]
-dropoff_points = [f'd{i+1}' for i in range(3)]
+pickup_points = [f'r{i+1}' for i in range(286)]
+dropoff_points = [f'd{i+1}' for i in range(5)]
 
 def generate_random_patrol_task(context):
     start_point = random.choice(pickup_points)
@@ -27,7 +27,7 @@ def generate_random_patrol_task(context):
 def repeat_patrol_task(context):
     return [
         TimerAction(
-            period=30.0,
+            period=20.0,
             actions=[
                 OpaqueFunction(function=generate_random_patrol_task),
                 OpaqueFunction(function=repeat_patrol_task)

@@ -234,7 +234,7 @@ robots:
         orientation: 0.0 # radians
       charger:
         waypoint: "AGV16"
-  
+  # Configuration for tinyRobot17
   AGV17:
     robot_config:
       max_delay: 15.0 # allowed seconds of delay of the current itinerary before it gets interrupted and replanned
@@ -246,6 +246,7 @@ robots:
         orientation: 0.0 # radians
       charger:
         waypoint: "AGV17"
+  # Configuration for tinyRobot18
   AGV18:
     robot_config:
       max_delay: 15.0 # allowed seconds of delay of the current itinerary before it gets interrupted and replanned
@@ -257,6 +258,7 @@ robots:
         orientation: 0.0 # radians
       charger:
         waypoint: "AGV18"
+  # Configuration for tinyRobot19
   AGV19:
     robot_config:
       max_delay: 15.0 # allowed seconds of delay of the current itinerary before it gets interrupted and replanned
@@ -268,6 +270,7 @@ robots:
         orientation: 0.0 # radians
       charger:
         waypoint: "AGV19"
+  # Configuration for tinyRobot20
   AGV20:
     robot_config:
       max_delay: 15.0 # allowed seconds of delay of the current itinerary before it gets interrupted and replanned
@@ -279,3 +282,171 @@ robots:
         orientation: 0.0 # radians
       charger:
         waypoint: "AGV20"
+  # Configuration for tinyRobot21
+  AGV21:
+    robot_config:
+      max_delay: 15.0 # allowed seconds of delay of the current itinerary before it gets interrupted and replanned
+    rmf_config:
+      robot_state_update_frequency: 10.0
+      start:
+        map_name: "v2"
+        waypoint: "AGV21"
+        orientation: 0.0 # radians
+      charger:
+        waypoint: "AGV21"
+  # Configuration for tinyRobot22
+  AGV22:
+    robot_config:
+      max_delay: 15.0 # allowed seconds of delay of the current itinerary before it gets interrupted and replanned
+    rmf_config:
+      robot_state_update_frequency: 10.0
+      start:
+        map_name: "v2"
+        waypoint: "AGV22"
+        orientation: 0.0 # radians
+      charger:
+        waypoint: "AGV22"
+  # Configuration for tinyRobot23
+  AGV23:
+    robot_config:
+      max_delay: 15.0 # allowed seconds of delay of the current itinerary before it gets interrupted and replanned
+    rmf_config:
+      robot_state_update_frequency: 10.0
+      start:
+        map_name: "v2"
+        waypoint: "AGV23"
+        orientation: 0.0 # radians
+      charger:
+        waypoint: "AGV23"
+  # Configuration for tinyRobot24
+  AGV24:
+    robot_config:
+      max_delay: 15.0 # allowed seconds of delay of the current itinerary before it gets interrupted and replanned
+    rmf_config:
+      robot_state_update_frequency: 10.0
+      start:
+        map_name: "v2"
+        waypoint: "AGV24"
+        orientation: 0.0 # radians
+      charger:
+        waypoint: "AGV24"
+  # Configuration for tinyRobot25
+  AGV25:
+    robot_config:
+      max_delay: 15.0 # allowed seconds of delay of the current itinerary before it gets interrupted and replanned
+    rmf_config:
+      robot_state_update_frequency: 10.0
+      start:
+        map_name: "v2"
+        waypoint: "AGV25"
+        orientation: 0.0 # radians
+      charger:
+        waypoint: "AGV25"
+  # Configuration for tinyRobot26
+  AGV26:
+    robot_config:
+      max_delay: 15.0 # allowed seconds of delay of the current itinerary before it gets interrupted and replanned
+    rmf_config:
+      robot_state_update_frequency: 10.0
+      start:
+        map_name: "v2"
+        waypoint: "AGV26"
+        orientation: 0.0 # radians
+      charger:
+        waypoint: "AGV26"
+  # Configuration for tinyRobot27
+  AGV27:
+    robot_config:
+      max_delay: 15.0 # allowed seconds of delay of the current itinerary before it gets interrupted and replanned
+    rmf_config:
+      robot_state_update_frequency: 10.0
+      start:
+        map_name: "v2"
+        waypoint: "AGV27"
+        orientation: 0.0 # radians
+      charger:
+        waypoint: "AGV27"
+  # Configuration for tinyRobot28
+  AGV28:
+    robot_config:
+      max_delay: 15.0 # allowed seconds of delay of the current itinerary before it gets interrupted and replanned
+    rmf_config:
+      robot_state_update_frequency: 10.0
+      start:
+        map_name: "v2"
+        waypoint: "AGV28"
+        orientation: 0.0 # radians
+      charger:
+        waypoint: "AGV28"
+  # Configuration for tinyRobot29
+  AGV29:
+    robot_config:
+      max_delay: 15.0 # allowed seconds of delay of the current itinerary before it gets interrupted and replanned
+    rmf_config:
+      robot_state_update_frequency: 10.0
+      start:
+        map_name: "v2"
+        waypoint: "AGV29"
+        orientation: 0.0 # radians
+      charger:
+        waypoint: "AGV29"
+  # Configuration for tinyRobot30
+  AGV30:
+    robot_config:
+      max_delay: 15.0 # allowed seconds of delay of the current itinerary before it gets interrupted and replanned
+    rmf_config:
+      robot_state_update_frequency: 10.0
+      start:
+        map_name: "v2"
+        waypoint: "AGV30"
+        orientation: 0.0 # radians
+      charger:
+        waypoint: "AGV30"
+  # Configuration for tinyRobot31
+  AGV31:
+    robot_config:
+      max_delay: 15.0 # allowed seconds of delay of the current itinerary before it gets interrupted and replanned
+    rmf_config:
+      robot_state_update_frequency: 10.0
+      start:
+        map_name: "v2"
+        waypoint: "AGV31"
+        orientation: 0.0 # radians
+      charger:
+        waypoint: "AGV31"
+  # Configuration for tinyRobot32
+  AGV32:
+    robot_config:
+      max_delay: 15.0 # allowed seconds of delay of the current itinerary before it gets interrupted and replanned
+    rmf_config:
+      robot_state_update_frequency: 10.0
+      start:
+        map_name: "v2"
+        waypoint: "AGV32"
+        orientation: 0.0 # radians
+      charger:
+        waypoint: "AGV32"
+  # Configuration for tinyRobot33
+  AGV33:
+    robot_config:
+      max_delay: 15.0 # allowed seconds of delay of the current itinerary before it gets interrupted and replanned
+    rmf_config:
+      robot_state_update_frequency: 10.0
+      start:
+        map_name: "v2"
+        waypoint: "AGV33"
+        orientation: 0.0 # radians
+      charger:
+        waypoint: "AGV33"
+  # Configuration for tinyRobot34
+  AGV34:
+    robot_config:
+      max_delay: 15.0 # allowed seconds of delay of the current itinerary before it gets interrupted and replanned
+    rmf_config:
+      robot_state_update_frequency: 10.0
+      start:
+        map_name: "v2"
+        waypoint: "AGV34"
+        orientation: 0.0 # radians
+      charger:
+        waypoint: "AGV34"

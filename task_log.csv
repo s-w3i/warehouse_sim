@@ -1,0 +1,10 @@
+Task ID,Start Position,End Position,Robot,Start Time,End Time,Duration (s)
+patrol.dispatch-0,Go to [place:r20],Go to [place:d1],AGV11,1720596789990,1720596937207,147.217
+patrol.dispatch-1,Go to [place:r210],Go to [place:d3],AGV34,1720596810712,1720596967517,156.805
+patrol.dispatch-2,Go to [place:r189],Go to [place:d3],AGV29,1720596829309,1720597007740,178.431
+patrol.dispatch-3,Go to [place:r245],Go to [place:d4],AGV28,1720596849636,1720597010285,160.649
+patrol.dispatch-6,Go to [place:r72],Go to [place:d3],AGV22,1720596909317,1720597049560,140.243
+patrol.dispatch-4,Go to [place:r195],Go to [place:d3],AGV33,1720596869717,1720597073950,204.233
+patrol.dispatch-9,Go to [place:r68],Go to [place:d1],AGV21,1720596972733,1720597118683,145.95
+patrol.dispatch-5,Go to [place:r279],Go to [place:d2],AGV32,1720596889318,1720597159595,270.277
+patrol.dispatch-7,Go to [place:r274],Go to [place:d1],AGV31,1720596930321,1720597196445,266.124
