@@ -39,3 +39,9 @@ You can also send random patrol task to the robot by:
 ros2 launch ign_sim dispatch_patrol.py
 ```
 This will create a random task to the robot fleet with 30 seconds interval
+
+Data Logger
+```bash
+ros2 run ign_sim observer.py --task_state
+```
+Remarks: run this before launch the rviz and gazebo
