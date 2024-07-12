@@ -233,7 +233,7 @@ def main(argv=sys.argv):
     def msg_callback(msg_type, data):
         print(f" \nReceived [{msg_type}] :: Data: \n   "
               f"{data}")
-        if msg_type == RmfMsgType.TaskState:
+        if msg_type == RmfMsgType.TaskState and data['status'] == 'completed':
             task_logger.log_task(data)
 
     observer = AsyncRmfMsgObserver(

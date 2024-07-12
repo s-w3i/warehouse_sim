@@ -184,6 +184,126 @@
       <pose>148.25 -98.15 0.0 0 0 -1.5707963267948966</pose>
     </include>
     <include>
+      <name>AGV11</name>
+      <uri>model://TinyRobot</uri>
+      <pose>144.1 -98.15 0.0 0 0 -1.5707963267948966</pose>
+    </include>
+    <include>
+      <name>AGV12</name>
+      <uri>model://TinyRobot</uri>
+      <pose>139.95000000000002 -98.15 0.0 0 0 -1.5707963267948966</pose>
+    </include>
+    <include>
+      <name>AGV13</name>
+      <uri>model://TinyRobot</uri>
+      <pose>135.85 -98.15 0.0 0 0 -1.5707963267948966</pose>
+    </include>
+    <include>
+      <name>AGV14</name>
+      <uri>model://TinyRobot</uri>
+      <pose>131.70000000000002 -98.15 0.0 0 0 -1.5707963267948966</pose>
+    </include>
+    <include>
+      <name>AGV15</name>
+      <uri>model://TinyRobot</uri>
+      <pose>127.55000000000001 -98.15 0.0 0 0 -1.5707963267948966</pose>
+    </include>
+    <include>
+      <name>AGV16</name>
+      <uri>model://TinyRobot</uri>
+      <pose>123.45 -98.15 0.0 0 0 -1.5707963267948966</pose>
+    </include>
+    <include>
+      <name>AGV17</name>
+      <uri>model://TinyRobot</uri>
+      <pose>119.30000000000001 -98.15 0.0 0 0 1.5707963267948966</pose>
+    </include>
+    <include>
+      <name>AGV18</name>
+      <uri>model://TinyRobot</uri>
+      <pose>115.15 -98.15 0.0 0 0 1.5707963267948966</pose>
+    </include>
+    <include>
+      <name>AGV25</name>
+      <uri>model://TinyRobot</uri>
+      <pose>69.75 -65.05 0.0 0 0 3.141592653589793</pose>
+    </include>
+    <include>
+      <name>AGV26</name>
+      <uri>model://TinyRobot</uri>
+      <pose>69.75 -69.2 0.0 0 0 3.141592653589793</pose>
+    </include>
+    <include>
+      <name>AGV27</name>
+      <uri>model://TinyRobot</uri>
+      <pose>69.75 -102.25 0.0 0 0 0.0</pose>
+    </include>
+    <include>
+      <name>AGV20</name>
+      <uri>model://TinyRobot</uri>
+      <pose>106.9 -98.15 0.0 0 0 -1.5707963267948966</pose>
+    </include>
+    <include>
+      <name>AGV19</name>
+      <uri>model://TinyRobot</uri>
+      <pose>111.05000000000001 -98.15 0.0 0 0 -1.5707963267948966</pose>
+    </include>
+    <include>
+      <name>AGV34</name>
+      <uri>model://TinyRobot</uri>
+      <pose>32.550000000000004 -32.0 0.0 0 0 -1.5707963267948966</pose>
+    </include>
+    <include>
+      <name>AGV28</name>
+      <uri>model://TinyRobot</uri>
+      <pose>32.550000000000004 -65.05 0.0 0 0 -1.5707963267948966</pose>
+    </include>
+    <include>
+      <name>AGV29</name>
+      <uri>model://TinyRobot</uri>
+      <pose>36.7 -65.05 0.0 0 0 -1.5707963267948966</pose>
+    </include>
+    <include>
+      <name>AGV30</name>
+      <uri>model://TinyRobot</uri>
+      <pose>32.550000000000004 -69.2 0.0 0 0 3.141592653589793</pose>
+    </include>
+    <include>
+      <name>AGV31</name>
+      <uri>model://TinyRobot</uri>
+      <pose>36.7 -69.2 0.0 0 0 0.0</pose>
+    </include>
+    <include>
+      <name>AGV33</name>
+      <uri>model://TinyRobot</uri>
+      <pose>36.7 -102.25 0.0 0 0 0.0</pose>
+    </include>
+    <include>
+      <name>AGV32</name>
+      <uri>model://TinyRobot</uri>
+      <pose>32.550000000000004 -102.25 0.0 0 0 3.141592653589793</pose>
+    </include>
+    <include>
+      <name>AGV23</name>
+      <uri>model://TinyRobot</uri>
+      <pose>102.80000000000001 -65.05 0.0 0 0 1.5707963267948966</pose>
+    </include>
+    <include>
+      <name>AGV21</name>
+      <uri>model://TinyRobot</uri>
+      <pose>106.9 -65.05 0.0 0 0 1.5707963267948966</pose>
+    </include>
+    <include>
+      <name>AGV24</name>
+      <uri>model://TinyRobot</uri>
+      <pose>102.80000000000001 -69.2 0.0 0 0 3.141592653589793</pose>
+    </include>
+    <include>
+      <name>AGV22</name>
+      <uri>model://TinyRobot</uri>
+      <pose>106.9 -69.2 0.0 0 0 0.0</pose>
+    </include>
+    <include>
       <name>v2_L1</name>
       <uri>model://v2_L1</uri>
       <pose>0 0 0.0 0 0 0</pose>
@@ -199,6 +319,34 @@
       <rmf_vertex name="AGV8" x="156.5" y="-98.15" level="L1" />
       <rmf_vertex name="AGV9" x="152.35" y="-98.15" level="L1" />
       <rmf_vertex name="AGV10" x="148.25" y="-98.15" level="L1" />
+      <rmf_vertex name="AGV11" x="144.1" y="-98.15" level="L1" />
+      <rmf_vertex name="AGV12" x="139.95000000000002" y="-98.15" level="L1" />
+      <rmf_vertex name="AGV13" x="135.85" y="-98.15" level="L1" />
+      <rmf_vertex name="AGV14" x="131.70000000000002" y="-98.15" level="L1" />
+      <rmf_vertex name="AGV15" x="127.55000000000001" y="-98.15" level="L1" />
+      <rmf_vertex name="AGV16" x="123.45" y="-98.15" level="L1" />
+      <rmf_vertex name="AGV17" x="119.30000000000001" y="-98.15" level="L1" />
+      <rmf_vertex name="AGV18" x="115.15" y="-98.15" level="L1" />
+      <rmf_vertex name="charger2" x="102.80000000000001" y="-73.3" level="L1" />
+      <rmf_vertex name="charger1" x="106.9" y="-73.3" level="L1" />
+      <rmf_vertex name="charger3" x="102.80000000000001" y="-98.15" level="L1" />
+      <rmf_vertex name="charger4" x="102.80000000000001" y="-106.4" level="L1" />
+      <rmf_vertex name="AGV25" x="69.75" y="-65.05" level="L1" />
+      <rmf_vertex name="AGV26" x="69.75" y="-69.2" level="L1" />
+      <rmf_vertex name="AGV27" x="69.75" y="-102.25" level="L1" />
+      <rmf_vertex name="AGV20" x="106.9" y="-98.15" level="L1" />
+      <rmf_vertex name="AGV19" x="111.05000000000001" y="-98.15" level="L1" />
+      <rmf_vertex name="AGV34" x="32.550000000000004" y="-32.0" level="L1" />
+      <rmf_vertex name="AGV28" x="32.550000000000004" y="-65.05" level="L1" />
+      <rmf_vertex name="AGV29" x="36.7" y="-65.05" level="L1" />
+      <rmf_vertex name="AGV30" x="32.550000000000004" y="-69.2" level="L1" />
+      <rmf_vertex name="AGV31" x="36.7" y="-69.2" level="L1" />
+      <rmf_vertex name="AGV33" x="36.7" y="-102.25" level="L1" />
+      <rmf_vertex name="AGV32" x="32.550000000000004" y="-102.25" level="L1" />
+      <rmf_vertex name="AGV23" x="102.80000000000001" y="-65.05" level="L1" />
+      <rmf_vertex name="AGV21" x="106.9" y="-65.05" level="L1" />
+      <rmf_vertex name="AGV24" x="102.80000000000001" y="-69.2" level="L1" />
+      <rmf_vertex name="AGV22" x="106.9" y="-69.2" level="L1" />
     </rmf_charger_waypoints>
   </world>
 </sdf>

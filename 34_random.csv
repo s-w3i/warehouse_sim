@@ -1,0 +1,23 @@
+Task ID,Start Position,End Position,Robot,Start Time,End Time,Duration (s)
+patrol.dispatch-2,Go to [place:r88],Go to [place:d3],AGV23,1720706371821,1720706710315,338.494
+patrol.dispatch-0,Go to [place:r19],Go to [place:d1],AGV11,1720706331827,1720706877357,545.53
+patrol.dispatch-3,Go to [place:r90],Go to [place:d4],AGV20,1720706392024,1720707122810,730.786
+patrol.dispatch-1,Go to [place:r15],Go to [place:d2],AGV10,1720706352022,1720707167576,815.554
+patrol.dispatch-5,Go to [place:r84],Go to [place:d1],AGV22,1720706432288,1720707349454,917.166
+patrol.dispatch-4,Go to [place:r13],Go to [place:d5],AGV6,1720706412226,1720707429016,1016.79
+patrol.dispatch-10,Go to [place:r60],Go to [place:d1],AGV14,1720706532648,1720707432235,899.587
+patrol.dispatch-6,Go to [place:r53],Go to [place:d2],AGV21,1720706452235,1720707438458,986.223
+patrol.dispatch-11,Go to [place:r96],Go to [place:d2],AGV25,1720706563807,1720707457128,893.321
+patrol.dispatch-7,Go to [place:r52],Go to [place:d3],AGV16,1720706472429,1720707475628,1003.199
+patrol.dispatch-13,Go to [place:r21],Go to [place:d1],AGV9,1720706719838,1720707535912,816.074
+patrol.dispatch-8,Go to [place:r53],Go to [place:d4],AGV24,1720706492853,1720707554847,1061.994
+patrol.dispatch-14,Go to [place:r11],Go to [place:d2],AGV5,1720706739236,1720707578031,838.795
+patrol.dispatch-9,Go to [place:r53],Go to [place:d5],AGV15,1720706512658,1720707635347,1122.689
+patrol.dispatch-15,Go to [place:r40],Go to [place:d3],AGV13,1720706771608,1720707658589,886.981
+patrol.dispatch-18,Go to [place:r70],Go to [place:d2],AGV21,1720707438473,1720707960622,522.149
+patrol.dispatch-22,Go to [place:r26],Go to [place:d1],AGV24,1720707554862,1720707963353,408.491
+patrol.dispatch-17,Go to [place:r87],Go to [place:d1],AGV14,1720707432258,1720708003120,570.862
+patrol.dispatch-19,Go to [place:r30],Go to [place:d3],AGV9,1720707535923,1720708073007,537.084
+patrol.dispatch-20,Go to [place:r8],Go to [place:d4],AGV16,1720707475911,1720708096341,620.43
+patrol.dispatch-21,Go to [place:r12],Go to [place:d5],AGV5,1720707578038,1720708184998,606.96
+,,,,,,768.531380952381

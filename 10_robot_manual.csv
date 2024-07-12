@@ -1,0 +1,36 @@
+Task ID,Start Position,End Position,Robot,Start Time,End Time,Duration (s)
+patrol.dispatch-0,Go to [place:r50],Go to [place:d1],AGV1,1720702789929,1720703086645,296.716
+patrol.dispatch-1,Go to [place:r1],Go to [place:d2],AGV10,1720702819136,1720703099447,280.311
+patrol.dispatch-2,Go to [place:r100],Go to [place:d3],AGV9,1720702850115,1720703127607,277.492
+patrol.dispatch-3,Go to [place:r233],Go to [place:d4],AGV8,1720702932897,1720703320157,387.26
+patrol.dispatch-6,Go to [place:r10],Go to [place:d1],AGV4,1720703057107,1720703322825,265.718
+patrol.dispatch-4,Go to [place:r16],Go to [place:d5],AGV3,1720702957897,1720703392357,434.46
+patrol.dispatch-7,Go to [place:r66],Go to [place:d2],AGV7,1720703106091,1720703419495,313.404
+patrol.dispatch-8,Go to [place:r6],Go to [place:d3],AGV6,1720703131081,1720703465511,334.43
+patrol.dispatch-9,Go to [place:r43],Go to [place:d5],AGV1,1720703234270,1720703605937,371.667
+patrol.dispatch-11,Go to [place:r3],Go to [place:d2],AGV2,1720703319271,1720703624917,305.646
+patrol.dispatch-10,Go to [place:r5],Go to [place:d4],AGV9,1720703284070,1720703638717,354.647
+patrol.dispatch-14,Go to [place:r223],Go to [place:d2],AGV8,1720703399075,1720703671946,272.871
+patrol.dispatch-13,Go to [place:r11],Go to [place:d5],AGV5,1720703366472,1720703763547,397.075
+patrol.dispatch-16,Go to [place:r15],Go to [place:d1],AGV3,1720703439877,1720703766704,326.827
+patrol.dispatch-15,Go to [place:r12],Go to [place:d3],AGV4,1720703425076,1720703805100,380.024
+patrol.dispatch-19,Go to [place:r96],Go to [place:d2],AGV1,1720703614690,1720703912201,297.511
+patrol.dispatch-21,Go to [place:r213],Go to [place:d5],AGV8,1720703702693,1720703916772,214.079
+patrol.dispatch-18,Go to [place:r231],Go to [place:d4],AGV6,1720703544090,1720703923350,379.26
+patrol.dispatch-17,Go to [place:r22],Go to [place:d5],AGV10,1720703523882,1720704005099,481.217
+patrol.dispatch-24,Go to [place:r24],Go to [place:d1],AGV3,1720703812504,1720704007200,194.696
+patrol.dispatch-20,Go to [place:r76],Go to [place:d1],AGV9,1720703646091,1720704045031,398.94
+patrol.dispatch-22,Go to [place:r4],Go to [place:d3],AGV2,1720703733697,1720704066056,332.359
+patrol.dispatch-25,Go to [place:r29],Go to [place:d2],AGV4,1720703836901,1720704181777,344.876
+patrol.dispatch-23,Go to [place:r44],Go to [place:d4],AGV7,1720703768496,1720704183750,415.254
+patrol.dispatch-28,Go to [place:r230],Go to [place:d4],AGV6,1720704044325,1720704354769,310.444
+patrol.dispatch-29,Go to [place:r92],Go to [place:d2],AGV9,1720704076689,1720704358865,282.176
+patrol.dispatch-27,Go to [place:r199],Go to [place:d1],AGV8,1720704012290,1720704359879,347.589
+patrol.dispatch-26,Go to [place:r25],Go to [place:d5],AGV5,1720703870099,1720704362419,492.32
+patrol.dispatch-31,Go to [place:r21],Go to [place:d1],AGV10,1720704131091,1720704406482,275.391
+patrol.dispatch-32,Go to [place:r16],Go to [place:d2],AGV2,1720704164090,1720704503173,339.083
+patrol.dispatch-30,Go to [place:r54],Go to [place:d3],AGV3,1720704099090,1720704534940,435.85
+patrol.dispatch-33,Go to [place:r100],Go to [place:d5],AGV1,1720704211094,1720704588643,377.549
+patrol.dispatch-34,Go to [place:r72],Go to [place:d4],AGV7,1720704241690,1720704625957,384.267
+patrol.dispatch-35,Go to [place:r30],Go to [place:d1],AGV4,1720704344890,1720704690975,346.085
+,,,,,,342.573352941176
